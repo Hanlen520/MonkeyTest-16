@@ -1,0 +1,1553 @@
+int logctl_get(): open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+--------- beginning of main
+04-26 11:01:19.065 19121 19196 I System.out: [chmod, 640, /data/data/com.huawei.intelligent/app_outdex/OnlineUpdateCycleConfig_1288.dex]
+04-26 11:01:19.065 19121 19196 I System.out: null
+04-26 11:01:19.065 19121 19196 I System.out: null
+04-26 11:01:19.066 19121 19196 I System.out: Calling by::className:cn.com.xy.sms.sdk.util.XyUtil  MethodName:chmodSyn
+04-26 11:01:19.268  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-53 "testin04_default"WPA_PSK
+04-26 11:01:19.515 19202 19202 I appproc : CLASSPATH=/system/framework/pm.jar
+04-26 11:01:19.516 19202 19202 I appproc : Command=app_process /system/bin com.android.commands.pm.Pm path cn.testin.itestin 
+04-26 11:01:19.520 19202 19202 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:19.581 19202 19202 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:19.589 19202 19202 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:19.591 19202 19202 I         : power log dlsym ok
+04-26 11:01:19.593 19202 19202 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:19.606 19202 19202 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:19.606 19202 19202 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:19.606 19202 19202 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:19.607 19202 19202 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:19.607 19202 19202 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:19.607 19202 19202 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:19.630 19202 19202 I art     : System.exit called, status: 0
+04-26 11:01:19.630 19202 19202 I AndroidRuntime: VM exiting with result code 0.
+04-26 11:01:19.637 19177 19177 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+04-26 11:01:19.637 19177 19177 I SendBroadcastPermission: action:android.intent.action.PROVIDER_CHANGED, mPermissionType:0
+04-26 11:01:19.637 19177 19177 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+04-26 11:01:19.647 19153 19153 W HwCust  : CUST VERSION = true, use class = class com.android.calendar.alerts.HwCustAlertService
+04-26 11:01:19.647 19153 19153 I HwCust  : Constructor found for class com.android.calendar.alerts.HwCustAlertService
+04-26 11:01:19.670 19153 19153 I CalendarSimpleUiPRovider: onReceive[intent]Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.android.calendar/.simpleui.CalendarSimpleUiPRovider }
+04-26 11:01:19.672 19153 19153 I CalendarSimpleUiPRovider: onConfigurationChanged
+04-26 11:01:19.675 19153 19153 I CalendarSimpleUiPRovider: initParams20190426T110119Asia/Shanghai(5,115,28800,0,1556247679)
+04-26 11:01:19.697 19153 19153 I HwCust  : Constructor found for class android.app.HwCustAlarmManagerImpl
+04-26 11:01:19.701 19153 19153 I SendBroadcastPermission: action:com.android.calendar.APPWIDGET_UPDATE, mPermissionType:0
+04-26 11:01:19.716 19153 19153 I CalendarSimpleUiPRovider: loadEvent end update UI0
+04-26 11:01:20.143 19225 19225 I appproc : CLASSPATH=/system/framework/wm.jar
+04-26 11:01:20.143 19225 19225 I appproc : Command=app_process /system/bin com.android.commands.wm.Wm dismiss-keyguard 
+04-26 11:01:20.147 19225 19225 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:20.209 19225 19225 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:20.217 19225 19225 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:20.219 19225 19225 I         : power log dlsym ok
+04-26 11:01:20.221 19225 19225 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:20.233 19225 19225 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:20.233 19225 19225 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:20.233 19225 19225 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:20.234 19225 19225 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:20.234 19225 19225 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:20.235 19225 19225 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:20.947 19239 19239 I appproc : CLASSPATH=/system/framework/settings.jar
+04-26 11:01:20.947 19239 19239 I appproc : Command=app_process /system/bin com.android.commands.settings.SettingsCmd put --user 0 secure vivo_pwd_protect_screen 0 
+04-26 11:01:20.952 19239 19239 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:21.006 19239 19239 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:21.015 19239 19239 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:21.017 19239 19239 I         : power log dlsym ok
+04-26 11:01:21.019 19239 19239 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:21.031 19239 19239 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:21.031 19239 19239 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:21.031 19239 19239 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:21.032 19239 19239 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:21.032 19239 19239 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:21.032 19239 19239 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:21.093  7499  7531 I PushLog2615: [ReceiverDispatcher-358]jsonStr does not  have a mapping for app(android/null:-1)
+04-26 11:01:21.095  7499  7531 I PushLog2615: [ReceiverDispatcher-358]isSupportsMultipleUsers: false(android/null:-1)
+04-26 11:01:21.095  7499  7531 I SendBroadcastPermission: action:com.huawei.intent.action.PUSH, mPermissionType:0
+04-26 11:01:21.097  7499  7531 I PushLog2615: [ReceiverDispatcher-358]read to Send:A1(android/null:-1)
+04-26 11:01:21.097  7499  7499 I PushLog2615: [main-1]action is com.huawei.intent.action.PUSH(android/null:-1)
+04-26 11:01:21.098  7499  7531 I PushLog2615: [ReceiverDispatcher-358]send msg to remote srv success(android/null:-1)
+04-26 11:01:21.098  7499  7531 I PushLog2615: [ReceiverDispatcher-358]rspPushMessage the response msg is :A1(android/null:-1)
+04-26 11:01:21.327  9502 19250 I testin-agent: ------ Socket onConnect  -----------59c3b57d16a578cb4cd26ed10f8S1
+04-26 11:01:21.344  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030000
+04-26 11:01:21.344  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030100
+04-26 11:01:21.345  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030200
+04-26 11:01:21.346  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020000
+04-26 11:01:21.346  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020100
+04-26 11:01:21.347  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020200
+04-26 11:01:21.347  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020300
+04-26 11:01:21.348  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020001
+04-26 11:01:21.348  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020201
+04-26 11:01:21.348  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020301
+04-26 11:01:21.350  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010000
+04-26 11:01:21.350  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010001
+04-26 11:01:21.351  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010301
+04-26 11:01:21.352  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010003
+04-26 11:01:21.352  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010103
+04-26 11:01:21.352  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010403
+04-26 11:01:21.352  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010004
+04-26 11:01:21.353  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010104
+04-26 11:01:21.353  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010204
+04-26 11:01:21.353  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010304
+04-26 11:01:21.353  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010404
+04-26 11:01:21.359 16754 16774 I UIA2-190314: clear accessibility cache
+04-26 11:01:21.362  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030000
+04-26 11:01:21.363  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030100
+04-26 11:01:21.363  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c030200
+04-26 11:01:21.364  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020000
+04-26 11:01:21.364  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020100
+04-26 11:01:21.364  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020200
+04-26 11:01:21.364  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020300
+04-26 11:01:21.364  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020001
+04-26 11:01:21.365  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020201
+04-26 11:01:21.365  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c020301
+04-26 11:01:21.366  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010000
+04-26 11:01:21.366  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010001
+04-26 11:01:21.366  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010301
+04-26 11:01:21.366  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010003
+04-26 11:01:21.366  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010103
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010403
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010004
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010104
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010204
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010304
+04-26 11:01:21.367  4478  4478 W ResourceType: No known package when getting name for resource number 0x9c010404
+04-26 11:01:21.376 16754 16774 I UIA2-190314: [Permission]------------must query start---------
+04-26 11:01:21.376 16754 16774 I UIA2-190314: roots size: 3
+04-26 11:01:21.376 16754 16774 I UIA2-190314: 1. root package: com.android.systemui
+04-26 11:01:21.376 16754 16774 I UIA2-190314: 2. root package: com.android.systemui
+04-26 11:01:21.376 16754 16774 I UIA2-190314: 3. root package: com.huawei.android.launcher
+04-26 11:01:21.377 16754 16774 I UIA2-190314: use old dumper
+04-26 11:01:21.377 16754 16774 I UIA2-190314: window info roots size = 3
+04-26 11:01:21.377 16754 16774 E UIA2-190314: screen width: 1080   screen height: 1830
+04-26 11:01:21.377 16754 16774 E UIA2-190314: fixed screen width: 1080   screen height: 1830
+04-26 11:01:21.377 16754 16774 I UIA2-190314: 1.dump root package: com.android.systemui
+04-26 11:01:21.377 16754 16774 E UIA2-190314: remove root: android.view.accessibility.AccessibilityNodeInfo@80009ddb; boundsInParent: Rect(0, 0 - 1080, 90); boundsInScreen: Rect(0, 1830 - 1080, 1920); packageName: com.android.systemui; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]
+04-26 11:01:21.377 16754 16774 I UIA2-190314: 2.dump root package: com.android.systemui
+04-26 11:01:21.402 16754 16774 I UIA2-190314: 3.dump root package: com.huawei.android.launcher
+04-26 11:01:21.426  4478  4478 W ResourceType: No known package when getting name for resource number 0x9b000000
+04-26 11:01:21.427  4478  4478 W ResourceType: No known package when getting name for resource number 0x9b010100
+04-26 11:01:21.427  4478  4478 W ResourceType: No known package when getting name for resource number 0x9b020200
+04-26 11:01:21.427  4478  4478 W ResourceType: No known package when getting name for resource number 0x9b030300
+04-26 11:01:21.427  4478  4478 W ResourceType: No known package when getting name for resource number 0x9b040400
+04-26 11:01:21.528 16754 16774 I UIA2-190314: [Permission]permission[strategy:MUST](value:ignore me):must query found 0 views
+04-26 11:01:21.528 16754 16774 I UIA2-190314: [Permission]no result found by must queries, no need to do further queries.
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56]--->goThroughStrategy,result size:[0]
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][6]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][11]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][13]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][14]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][15]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][16]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][17]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][18]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][22]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][23]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][26]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56][27]--->ws isThis,isOK:false
+04-26 11:01:21.529 16754 16774 I UIA2-190314: monitor[56]--->[runOnce],time elapsed:[206]ms
+04-26 11:01:21.771 19248 19248 I appproc : CLASSPATH=/system/framework/am.jar
+04-26 11:01:21.771 19248 19248 I appproc : Command=app_process /system/bin com.android.commands.am.Am broadcast -a com.testin.action.close 
+04-26 11:01:21.776 19248 19248 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:21.816  2856  2856 E Thermal-daemon: [ap] temp_new :37  temp_old :35
+04-26 11:01:21.816  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :37  report_threshold:1
+04-26 11:01:21.828 19248 19248 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:21.836 19248 19248 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:21.837 19248 19248 I         : power log dlsym ok
+04-26 11:01:21.839 19248 19248 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:21.849 19248 19248 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:21.849 19248 19248 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:21.849 19248 19248 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:21.850 19248 19248 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:21.850 19248 19248 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:21.851 19248 19248 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:21.872 16754 16754 I close   : overover
+04-26 11:01:21.873 16754 16754 I Process : Sending signal. PID: 16754 SIG: 9
+04-26 11:01:21.875  4413  4449 I PgedBinderListener: kstate callback type:8 value1=16754 value2=KILLED
+04-26 11:01:22.086  4413  4441 I PgedBinderListener: kstate callback type:8 value1=16790 value2=KILLED
+04-26 11:01:22.201  4413 11957 I PgedBinderListener: kstate callback type:8 value1=16781 value2=KILLED
+04-26 11:01:22.282  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-52 "testin04_default"WPA_PSK
+04-26 11:01:22.286  4413  4449 I PgedBinderListener: kstate callback type:8 value1=16926 value2=KILLED
+04-26 11:01:22.381  3446  3459 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:01:22.381  3446  3459 I MediaProcessHandler: processOp opType: 1, uid: 15682, pid: 16754
+04-26 11:01:22.381  3446  3459 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 15682, pid: 16754
+04-26 11:01:22.381  3446  3459 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:01:22.381  3446  3459 I MediaProcessHandler: processOp opType: 1, uid: 15682, pid: 16790
+04-26 11:01:22.381  3446  3459 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 15682, pid: 16790
+04-26 11:01:22.382  3446  4427 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:01:22.382  3446  4427 I MediaProcessHandler: processOp opType: 1, uid: 15682, pid: 16781
+04-26 11:01:22.382  3446  4427 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 15682, pid: 16781
+04-26 11:01:22.382  3446  4491 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:01:22.383  3446  4491 I MediaProcessHandler: processOp opType: 1, uid: 15682, pid: 16926
+04-26 11:01:22.383  3446  4491 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 15682, pid: 16926
+04-26 11:01:23.514 19121 19151 W PlaceRecognitionService: reached max time for work,just do work done!
+04-26 11:01:23.515 19121 19151 I PlaceRecognitionService: work done startId : 1
+04-26 11:01:23.517 19121 19121 I PlaceRecognitionService: onDestroy
+04-26 11:01:23.518 19121 19151 I CalendarSync: deInit mIsReceiverRegistered : true
+04-26 11:01:23.736  3656  3656 I SendBroadcastPermission: action:com.android.huawei.AUTOROTATE_ACTION_SETTING_CHANGED, mPermissionType:0
+04-26 11:01:23.745  3656 19263 I SendBroadcastPermission: action:com.android.huawei_REFRESH_ACTION, mPermissionType:0
+04-26 11:01:25.292  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-52 "testin04_default"WPA_PSK
+04-26 11:01:26.514  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:01:28.191 19268 19268 I appproc : CLASSPATH=/system/framework/pm.jar
+04-26 11:01:28.191 19268 19268 I appproc : Command=app_process /system/bin com.android.commands.pm.Pm set-install-location 0 
+04-26 11:01:28.196 19268 19268 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:28.248 19268 19268 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:28.256 19268 19268 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:28.257 19268 19268 I         : power log dlsym ok
+04-26 11:01:28.259 19268 19268 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:28.270 19268 19268 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:28.270 19268 19268 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:28.270 19268 19268 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:28.271 19268 19268 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:28.271 19268 19268 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:28.272 19268 19268 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:28.293 19268 19268 I art     : System.exit called, status: 0
+04-26 11:01:28.293 19268 19268 I AndroidRuntime: VM exiting with result code 0.
+04-26 11:01:28.303  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-53 "testin04_default"WPA_PSK
+04-26 11:01:28.481  3446  4477 I PackageManager: Start dump, calling from : pid=19281, uid=2000
+04-26 11:01:31.315  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:01:31.824  2856  2856 E Thermal-daemon: [ap] temp_new :36  temp_old :37
+04-26 11:01:31.824  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :36  report_threshold:1
+04-26 11:01:34.327  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:01:36.525  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:01:37.340  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-53 "testin04_default"WPA_PSK
+04-26 11:01:40.352  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:01:43.363  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:01:46.374  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-56 "testin04_default"WPA_PSK
+04-26 11:01:46.543  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:01:49.386  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:01:50.715 19300 19300 I appproc : CLASSPATH=/system/framework/pm.jar
+04-26 11:01:50.715 19300 19300 I appproc : Command=app_process /system/bin com.android.commands.pm.Pm install -r -t -g /data/local/tmp/669AC4A565FC40FFFB679418A33F2077_5689949778499697.apk 
+04-26 11:01:50.720 19300 19300 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:01:50.777 19300 19300 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:01:50.786 19300 19300 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:01:50.787 19300 19300 I         : power log dlsym ok
+04-26 11:01:50.789 19300 19300 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:01:50.800 19300 19300 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:01:50.800 19300 19300 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:01:50.800 19300 19300 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:01:50.801 19300 19300 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:01:50.801 19300 19300 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:01:50.801 19300 19300 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:01:50.832  3446  3798 I SendBroadcastPermission: action:com.huawei.android.action.GET_INSTALLER_PACKAGE_INFO, mPermissionType:0
+04-26 11:01:50.833 18592 18592 I HwSystemManager: HandleInstalledPackageInfoService:onReceive  action is com.huawei.android.action.GET_INSTALLER_PACKAGE_INFO
+04-26 11:01:50.834 18592 18592 I HwSystemManager: HandleInstalledPackageInfoService:get count = 0
+04-26 11:01:50.848  4413  4950 W AppsCleanUp: frequently crash process:com.android.defcontainer time:2954265ms, crash:17 uid:10000
+04-26 11:01:50.902  2808  3547 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:01:50.902  2808  3547 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[32]
+04-26 11:01:50.905 19308 19320 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:01:50.905 19308 19320 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:01:50.907 19308 19320 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:01:50.907 19308 19320 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:01:50.908 19308 19320 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:01:50.946 19308 19318 I HwCust  : Constructor found for class com.android.internal.content.HwCustPackageHelperImpl
+04-26 11:01:52.399  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:01:52.417  3446  3455 I art     : Background partial concurrent mark sweep GC freed 19070(1048KB) AllocSpace objects, 1(512KB) LOS objects, 8% free, 45MB/49MB, paused 2.650ms total 182.553ms
+04-26 11:01:54.208  3446  3485 W CfgFilePolicy: No config file found for:dexopt/never_dexopt_apklist.cfg
+04-26 11:01:54.208  3446  3485 I HwPackageManagerService: needed dexopt deferred pkg :com.dc.hwsj
+04-26 11:01:54.208  3446  3485 W CfgFilePolicy: No config file found for:dexopt/dexopt_in_bootup_apklist.cfg
+04-26 11:01:54.208  3446  3485 I HwPackageManagerService: needed dexopt deferred pkg :com.dc.hwsj
+04-26 11:01:54.210  3446  3485 I HwPackageManagerService: forceNotDex: isOdexCase true, mSystemReady true, mDexOptTotalTime 64246, isFirstBoot false, hasOtaUpdate false
+04-26 11:01:54.211  3446  3485 I HwPackageManagerService: forceNotDex = false: isOdexCase true, mSystemReady true
+04-26 11:01:54.234  3446  3485 I PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl378421583.tmp/base.apk pkg=com.dc.hwsj isa=arm vmSafeMode=false debuggable=false oatDir = /data/app/vmdl378421583.tmp/oat
+04-26 11:01:54.281 19323 19323 I dex2oat : Starting dex2oat.
+04-26 11:01:54.292  3446  3455 I art     : Background partial concurrent mark sweep GC freed 139610(7MB) AllocSpace objects, 3(1248KB) LOS objects, 8% free, 45MB/49MB, paused 2.209ms total 219.746ms
+04-26 11:01:55.040 19323 19323 W dex2oat : Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+04-26 11:01:55.042  3446  3467 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+04-26 11:01:55.085 19323 19323 W dex2oat : Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+04-26 11:01:55.254 19323 19328 W dex2oat : Before Android 4.1, method boolean com.facebook.share.widget.ShareButtonBase.canShare() would have incorrectly overridden the package-private method in android.widget.TextView
+04-26 11:01:55.408  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-53 "testin04_default"WPA_PSK
+04-26 11:01:56.555  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:01:56.843  2856  2856 E Thermal-daemon: [ap] temp_new :37  temp_old :36
+04-26 11:01:56.843  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :37  report_threshold:1
+04-26 11:01:58.418  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:01:59.082  3446  3467 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+04-26 11:02:00.002  4478  4478 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+04-26 11:02:00.002  4478  4478 I HwLauncher: Model  onReceive user=UserHandle{0}
+04-26 11:02:00.004  3656  3656 I TimeManager: receiver action = android.intent.action.TIME_TICK
+04-26 11:02:00.013  4478  4478 I TotemWeather: CityTimeView CityTimeView mCurrentViewMode = 10141
+04-26 11:02:00.014  3656  3656 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:00.015  3656  3656 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:00.015  3656  3656 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:00.015  3656  3656 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:00.023  4478  4478 I TotemWeather: CityTimeFormatView CityTimeFormatView setTimeFormat is24Hour=true,timeFormat=
+04-26 11:02:00.024  4478  4478 I TotemWeather: DateTimeManager send message delay millis = 60976 ms
+04-26 11:02:00.034  4478  4478 I HwLauncher: CalenderDynamicUpdater date changed begin
+04-26 11:02:00.034  4478  4478 I HwLauncher: CalenderDynamicUpdater date changed end
+04-26 11:02:00.038  4478  4478 I HwLauncher: ClockDynamicUpdater date changed begin
+04-26 11:02:00.039  4478  4610 E HwLauncher: SettingsEx , no such field.
+04-26 11:02:00.039  4478  4610 W HwLauncher: Clock getDataFormat the getSystemString failed.
+04-26 11:02:00.040  4478  4610 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+04-26 11:02:00.040  4478  4610 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+04-26 11:02:00.040  4478  4478 I HwLauncher: ClockDynamicUpdater date changed end
+04-26 11:02:00.041  4478  4610 I HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+04-26 11:02:00.041  4478  4610 I HwLauncher: DynamicUpdater updateBitmap end and send update message
+04-26 11:02:00.042  4478  4478 I HwLauncher: DynamicUpdater call updateFolder
+04-26 11:02:00.062  2808  2808 I [Gralloc]: alloc w[432] h[768] format[1] usage[2563]
+04-26 11:02:00.064  2808  2808 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[480]
+04-26 11:02:01.428  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:02:01.848  2856  2856 E Thermal-daemon: [ap] temp_new :39  temp_old :37
+04-26 11:02:01.848  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :39  report_threshold:1
+04-26 11:02:04.439  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:05.125 19323 19328 W dex2oat : Compilation of void com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.<init>(java.lang.reflect.Type, java.lang.reflect.Type, java.lang.reflect.Type[]) took 103.166ms
+04-26 11:02:05.148 19323 19327 W dex2oat : Compilation of java.lang.reflect.Type com.google.gson.internal.$Gson$Types.canonicalize(java.lang.reflect.Type) took 105.873ms
+04-26 11:02:06.567  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:02:06.602 19323 19327 W dex2oat : No verified method for method calling String.<init>: java.lang.String java.io.ByteArrayOutputStream.toString(java.lang.String)
+04-26 11:02:06.852  2856  2856 E Thermal-daemon: [ap] temp_new :42  temp_old :39
+04-26 11:02:06.852  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :42  report_threshold:1
+04-26 11:02:06.853  4413  4949 I ThermalStateManager: triggerLevel = 0, triggerAction :{bcurrent=0, cpu_a15=1708800, gpu=600000000, ucurrent=0, cpu=0, lcd=0}
+04-26 11:02:06.854  4413  4949 I ThermalStateManager: sensor name: cpu temperature: 42 , thermal action: cpu_a15 policy:1708800
+04-26 11:02:06.854  4413  4949 I ThermalStateManager: sensor name: cpu temperature: 42 , thermal action: gpu policy:600000000
+04-26 11:02:07.448  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:02:08.450  4955  5269 I Bluetooth: HeadsetStateMachine:Disconnected process message: 10, size: 0
+04-26 11:02:08.451  4442  6190 I HwPowerMonitor.PowerExceptionObservable: unhandled onEvent actionID: 3002
+04-26 11:02:08.452  4442  4442 I HwPowerMonitor.DayActObserver: in PowerMonitorHandler, will handle msg.what = battery_changed, Utils.isCharging() = true
+04-26 11:02:08.959 19323 19323 I dex2oat : dex2oat took 14.681s (threads: 4) 
+04-26 11:02:09.549  3446  3485 W Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+04-26 11:02:09.551  3446  3485 I SendBroadcastPermission: action:com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO, mPermissionType:0
+04-26 11:02:09.553  3446  3485 I art     : Starting a blocking GC Explicit
+04-26 11:02:09.554 18592 18592 I HwSystemManager: HandleInstalledPackageInfoService:onReceive  action is com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO
+04-26 11:02:09.560 18592 18592 I HwSystemManager: HsmStat_event:"p_ipd","n=com.dc.hwsj,vc=180101,vn=1.8.01,s=adb install,u=0,r=1,rsn=0,si=true,im=2"
+04-26 11:02:09.784  3446  3485 I art     : Explicit concurrent mark sweep GC freed 101882(5MB) AllocSpace objects, 9(1224KB) LOS objects, 9% free, 40MB/44MB, paused 2.895ms total 230.926ms
+04-26 11:02:09.786 19300 19300 I art     : System.exit called, status: 0
+04-26 11:02:09.786 19300 19300 I AndroidRuntime: VM exiting with result code 0.
+04-26 11:02:09.791  4478  4478 I HwLauncher: SimpleLauncherModeaction= android.intent.action.PACKAGE_ADDEDpackageName = com.dc.hwsj
+04-26 11:02:09.791  4478  4478 W HwLauncher: SimpleLauncherMode onReceive : It's normal Launcher now, do not handle add packages
+04-26 11:02:09.791  4478  4478 I HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.dc.hwsj flg=0x4000010 (has extras) }
+04-26 11:02:09.795 18664 18664 I HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.dc.hwsj flg=0x4000010 (has extras) }
+04-26 11:02:09.795 18664 18664 I HwSystemManager: HsmPackageManager:replacing:false
+04-26 11:02:09.795 18664 18664 I HwSystemManager: HsmPackageManager:pkgName:com.dc.hwsj
+04-26 11:02:09.799  4955  4955 I Bluetooth: BluetoothMapAppObserver:onReceive
+04-26 11:02:09.799  4955  4955 I Bluetooth: BluetoothMapAppObserver:The installed package is: com.dc.hwsj
+04-26 11:02:09.799  7499  7499 I PushLog2615: [main-1]action is android.intent.action.PACKAGE_ADDED(android/null:-1)
+04-26 11:02:09.800  3446  3550 I InputReader: Reconfiguring input devices.  changes=0x00000010
+04-26 11:02:09.800  3656  3656 I IntelligentScene: mPackageReceiver, action= android.intent.action.PACKAGE_ADDED
+04-26 11:02:09.800  3656  3656 I IntelligentScene: packageName = com.dc.hwsj
+04-26 11:02:09.800  4955  4955 I Bluetooth: BluetoothMapAppObserver:Found 0 application(s) with intent android.bluetooth.action.BLUETOOTH_MAP_PROVIDER
+04-26 11:02:09.801  4955  4955 I Bluetooth: BluetoothMapAppObserver:Found 0 application(s) with intent android.bluetooth.action.BLUETOOTH_MAP_IM_PROVIDER
+04-26 11:02:09.803 18664 18664 I HwSystemManager: HsmPackageManager:doAppInstalled, installed: com.dc.hwsj
+04-26 11:02:09.807 18592 18592 I HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.dc.hwsj flg=0x4000010 (has extras) }
+04-26 11:02:09.807 18592 18592 I HwSystemManager: HsmPackageManager:replacing:false
+04-26 11:02:09.808 18592 18592 I HwSystemManager: HsmPackageManager:pkgName:com.dc.hwsj
+04-26 11:02:09.813  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.appmarket time:3048740ms, crash:24 uid:10012
+04-26 11:02:09.817 18592 18592 I HwSystemManager: HsmPackageManager:doAppInstalled, installed: com.dc.hwsj
+04-26 11:02:09.874  2808 10235 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:09.874  2808 10235 I [Gralloc]: alloc succ handle[0x55ca5d8940] stride[32]
+04-26 11:02:09.876 19338 19352 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:09.876 19338 19352 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:09.878 19338 19352 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:09.878 19338 19352 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:09.879 19338 19352 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:09.904 18592 18769 W HwSystemManager: StartupConfData:getStartupAllowCfgCloud for com.dc.hwsj, isRec true return default
+04-26 11:02:09.906  3446  3463 W Searchables: No global search activity found
+04-26 11:02:09.906  3446  3463 I SendBroadcastPermission: action:android.search.action.SEARCHABLES_CHANGED, mPermissionType:0
+04-26 11:02:09.912  4478  4478 I HwLauncher: Model onPackageAdded packageName = com.dc.hwsj user = UserHandle{0}
+04-26 11:02:09.912  4478  4478 I HwLauncher: MutilSelectedIcons onPreHandleUpdatedTask : mIsInMutilSelectMode = false task = 1 packages = [com.dc.hwsj] hasHandleInvisiblePanel = false
+04-26 11:02:09.912  4478  4478 I HwLauncher: Model  enqueuePackageUpdated post task
+04-26 11:02:09.913  4478  4610 I HwLauncher: Model  PackageUpdatedTask Op : 1
+04-26 11:02:09.913  4478  4610 I HwLauncher: Model mAllAppsList.addPackage com.dc.hwsj
+04-26 11:02:09.925  4478  4610 I HwLauncher: Launcher.IconCache, cacheLocked begin Utilities.createIconBitmap entry.title = Game of Sultans
+04-26 11:02:09.937  4478  4610 I HwLauncher: Launcher.Utilities createIconBitmap classname = null, sourceWidth = 144, sourceHeight = 144
+04-26 11:02:09.941  4478  4610 I HwLauncher: Launcher.IconCache, cacheLocked end Utilities.createIconBitmap entry.title = Game of Sultans
+04-26 11:02:09.941  4478  4478 I HwLauncher: Workspace  addedAppsShortcutInfoOnWorkSpace isNeedAdd = true isBatchUninstalling = false isDownloadAndNotAdd= false
+04-26 11:02:09.941  4478  4478 I HwLauncher: Workspace defaultDesktop:1,mCurrentPage:1,getChildCount():4,getMaxScreen():18
+04-26 11:02:09.941  4478  4478 I HwLauncher: Workspace addAppToDesktop itemInfo=ShortcutInfo(title=Game of Sultans) success=true isInstalled=true checkPage=2 mCoordinates=4,0 view=null
+04-26 11:02:09.952  4478  4610 I HwLauncher: Launcher.LauncherProvider  queried count: 0
+04-26 11:02:09.952  4478  4610 I HwLauncher: Model check duplicated icons for Radar
+04-26 11:02:09.954  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.954  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.954  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.954  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.955  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.955  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.955  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.956  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:09.957  4478  4478 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:10.045  3446  4518 I PackageManager: Start dump, calling from : pid=19388, uid=2000
+04-26 11:02:10.056 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.056 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.059 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.059 19338 19338 W art     : Verification of void com.huawei.appmarket.framework.app.StoreApplication.onCreate() took 109.402ms
+04-26 11:02:10.063 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.064 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.064 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:10.077 19338 19338 I MultiDex: VM with version 2.1.0 has multidex support
+04-26 11:02:10.078 19338 19338 I MultiDex: Installing application
+04-26 11:02:10.078 19338 19338 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+04-26 11:02:10.092 19338 19338 I HiApp   : HiApp init sdk version:1.1
+04-26 11:02:10.459  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-56 "testin04_default"WPA_PSK
+04-26 11:02:10.573 19338 19338 I ExoPlayerImpl: Init f73b9e8 [ExoPlayerLib/2.7.1] [HWP8max, HUAWEI P8max, HUAWEI, 23]
+04-26 11:02:10.588 19338 19338 I AudioManager: abandonAudioFocus
+04-26 11:02:10.589  3446  4427 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@85b0801o.cyi$5@cf8e6a6
+04-26 11:02:10.591  3015  4306 I IAudioFlinger: [onTransact]SET_LOWPOWERAPK
+04-26 11:02:10.592 19338 19338 I ExoPlayerImpl: Release f73b9e8 [ExoPlayerLib/2.7.1] [HWP8max, HUAWEI P8max, HUAWEI, 23] [goog.exo.core]
+04-26 11:02:11.274 19338 19338 E HwGrsSdk: can not getField[main-1](/:352)
+04-26 11:02:11.275 19338 19338 I HwGrsSdk: getGrsUrls serviceName-->com.huawei.cloud.hianalytics[main-1](/:542)
+04-26 11:02:11.275 19338 19338 I HwGrsSdk: getUrlsFromSp isJudgeExpire ->true[main-1](/:717)
+04-26 11:02:11.279 19338 19338 I HwGrsSdk: getUrlFromSp sp value is exist.[main-1](/:726)
+04-26 11:02:11.280 19338 19338 I HwGrsSdk: isSpExpire false.[main-1](/:1004)
+04-26 11:02:11.281 19338 19338 I HwGrsSdk: getUrlFromSp isExpire ->false[main-1](/:729)
+04-26 11:02:11.281 19338 19338 I HwGrsSdk: getServiceNameUrls[main-1](/:734)
+04-26 11:02:11.282 19338 19338 I HwGrsSdk: getServiceNameUrl jsonResult is right.[main-1](/:1093)
+04-26 11:02:11.282 19338 19338 I HwGrsSdk: getGrsUrls sp query success.[main-1](/:558)
+04-26 11:02:11.284 19338 19338 I HwGrsSdk: n*t*f*Q*e*y*u*c*s*C*l* u*l* [main-1](/:33262)
+04-26 11:02:11.555 19338 19338 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.huawei.appgallery.foundation.deviceinfo.HwFoldDisplayModeListener>
+04-26 11:02:11.564 19338 19396 W HiApp.HwFoldScreenDeviceUtils: main{1} <<< WARN >>> isFoldable Throwablejava.lang.NoClassDefFoundError: Failed resolution of: Lcom/huawei/android/fsm/HwFoldScreenManagerEx;
+04-26 11:02:11.606 19338 19338 I SendBroadcastPermission: action:com.huawei.appmarket.service.downloadservice.Receiver, mPermissionType:0
+04-26 11:02:11.623  4413  4950 W AppsCleanUp: frequently crash process:com.android.contacts time:3062591ms, crash:21 uid:10004
+04-26 11:02:11.642  3446  4474 W System.err: java.lang.SecurityException: WifiService: Neither user 10012 nor current process has android.permission.CHANGE_WIFI_STATE.
+04-26 11:02:11.642  3446  4474 W System.err: 	at android.app.ContextImpl.enforce(ContextImpl.java:1595)
+04-26 11:02:11.642  3446  4474 W System.err: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:1627)
+04-26 11:02:11.642  3446  4474 W System.err: 	at com.android.server.wifi.WifiServiceImpl.enforceChangePermission(WifiServiceImpl.java:659)
+04-26 11:02:11.642  3446  4474 W System.err: 	at com.android.server.wifi.WifiServiceImpl.getWifiServiceMessenger(WifiServiceImpl.java:1817)
+04-26 11:02:11.642  3446  4474 W System.err: 	at android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:558)
+04-26 11:02:11.642  3446  4474 W System.err: 	at com.android.server.wifi.HwWifiService.onTransact(HwWifiService.java:267)
+04-26 11:02:11.642  3446  4474 W System.err: 	at android.os.Binder.execTransact(Binder.java:453)
+04-26 11:02:11.644 19338 19338 E WifiManager: WifiServiceMessenger == null
+04-26 11:02:11.654 19338 19338 I SendBroadcastPermission: action:com.huawei.appmarket.service.installerservice.Receiver, mPermissionType:0
+04-26 11:02:11.656 19338 19338 I SendBroadcastPermission: action:com.huawei.appmarket.service.downloadservice.Receiver, mPermissionType:0
+04-26 11:02:11.656  4478  4478 I HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=com.huawei.appmarket.service.installerservice.Receiver flg=0x10 (has extras) }
+04-26 11:02:11.657  4478  4478 I HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 }
+04-26 11:02:11.657  4478  4478 W HwLauncher: get getBundleExtra with downloadtask all return null!
+04-26 11:02:11.682  2808  3547 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:11.682  2808  3547 I [Gralloc]: alloc succ handle[0x55ca44c280] stride[32]
+04-26 11:02:11.683 19421 19433 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:11.683 19421 19433 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:11.685 19421 19433 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:11.685 19421 19433 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:11.686 19421 19433 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:11.702 19338 19338 W VSimApiWrapper: isPlatformSupportVsim, no such method.
+04-26 11:02:11.702 19338 19338 W VSimApiWrapper: getVSimSubId, no such method.
+04-26 11:02:11.702 19338 19338 W VSimApiWrapper: disableVSim, no such method.
+04-26 11:02:11.702 19338 19338 W VSimApiWrapper: getSimMode, no such method.
+04-26 11:02:11.704 19338 19338 W VSimApiWrapper: getRegPlmn, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: getCellLocation, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: getTrafficData, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: clearTrafficData, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: getSimStateViaSysinfoEx, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: getCpserr, no such method.
+04-26 11:02:11.705 19338 19338 W VSimApiWrapper: getVsimAvailableNetworks, no such method.
+04-26 11:02:11.706 19338 19338 W VSimApiWrapper: getDevSubMode, no such method.
+04-26 11:02:11.706 19338 19338 W VSimApiWrapper: getPreferredNetworkTypeForVSim, no such method.
+04-26 11:02:11.706 19338 19338 W VSimApiWrapper: getUserReservedSubId, no such method.
+04-26 11:02:11.706 19338 19338 W VSimApiWrapper: hasIccCardForVSim, no such method.
+04-26 11:02:11.706 19338 19338 W VSimApiWrapper: hasHardIccCardForVSim, no such method.
+04-26 11:02:11.707 19338 19338 W VSimApiWrapper: getNetworkCountryIso, no such method.
+04-26 11:02:11.707 19338 19338 W VSimApiWrapper: dsFlowCfg, no such method.
+04-26 11:02:11.707 19338 19338 W VSimApiWrapper: isCDMASimCard, no such method.
+04-26 11:02:11.707 19338 19338 W VSimApiWrapper: getDeviceNetworkCountryIso, no such method.
+04-26 11:02:11.707 19338 19338 W VSimApiWrapper: getNetworkOperator, no such method.
+04-26 11:02:11.708 19338 19338 W VSimApiWrapper: getNetworkOperatorName, no such method.
+04-26 11:02:11.708 19338 19338 W VSimApiWrapper: getNetworkType, no such method.
+04-26 11:02:11.708 19338 19338 W VSimApiWrapper: scanVsimAvailableNetworks, no such method.
+04-26 11:02:11.708 19338 19338 W VSimApiWrapper: getSubscriberId, no such method.
+04-26 11:02:11.709 19338 19338 W VSimApiWrapper: getNetworkCountryIso, no such method.
+04-26 11:02:11.709 19338 19338 W VSimApiWrapper: isNetworkRoaming, no such method.
+04-26 11:02:11.709 19338 19338 W VSimApiWrapper: getOperatorWithDeviceCustomed, no such method.
+04-26 11:02:11.709 19338 19338 W VSimApiWrapper: getSubState(), no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: getSimState(), no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: isTrustedEMUI(), no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: isMultiSimEnabled, no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: getVSimSubId, no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: disableVSim, no such method.
+04-26 11:02:11.710 19338 19338 W VSimApiWrapper: getSimMode, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: getRegPlmn, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: getTrafficData, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: clearTrafficData, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: getSimStateViaSysinfoEx, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: getCpserr, no such method.
+04-26 11:02:11.711 19338 19338 W VSimApiWrapper: getDevSubMode, no such method.
+04-26 11:02:11.712 19338 19338 W VSimApiWrapper: getPreferredNetworkTypeForVSim, no such method.
+04-26 11:02:11.712 19338 19338 W VSimApiWrapper: getUserReservedSubId, no such method.
+04-26 11:02:11.712 19338 19338 W VSimApiWrapper: hasIccCardForVSim, no such method.
+04-26 11:02:11.712 19338 19338 W VSimApiWrapper: dsFlowCfg, no such method.
+04-26 11:02:11.712 19338 19338 W VSimApiWrapper: getDeviceNetworkCountryIso, no such method.
+04-26 11:02:11.715 19338 19338 W VSimApiWrapper: switchVSimWorkMode, no such method.
+04-26 11:02:11.716 19338 19338 W VSimApiWrapper: getCurrentPhoneTypeForSlot, no such method.
+04-26 11:02:11.739 19338 19396 E HiApp.AppUpdatePolicy: main{1} <<< ERROR >>> the installed app list is not initial yet. it's useless to update!
+04-26 11:02:11.750 19338 19396 W HiApp.StoreUrlInterrupter: main{1} <<< WARN >>> invokeStore Fail,will try GrsProcesser asynchronous again, because of url is empty,targetServer=server.store,method=client.installResultRep
+04-26 11:02:11.752 19338 19338 I HwGrsSdk: getGrsUrls serviceName-->com.huawei.appmarketV04[main-1](/:542)
+04-26 11:02:11.753 19338 19338 I HwGrsSdk: getUrlsFromSp isJudgeExpire ->true[main-1](/:717)
+04-26 11:02:11.753 19338 19338 I HwGrsSdk: getUrlFromSp sp value is exist.[main-1](/:726)
+04-26 11:02:11.753 19338 19338 I HwGrsSdk: isSpExpire false.[main-1](/:1004)
+04-26 11:02:11.753 19338 19338 I HwGrsSdk: getUrlFromSp isExpire ->false[main-1](/:729)
+04-26 11:02:11.754 19338 19338 I HwGrsSdk: getServiceNameUrls[main-1](/:734)
+04-26 11:02:11.754 19338 19338 I HwGrsSdk: getServiceNameUrl jsonResult is right.[main-1](/:1093)
+04-26 11:02:11.754 19338 19338 I HwGrsSdk: getGrsUrls sp query success.[main-1](/:558)
+04-26 11:02:11.755 19338 19338 I HwGrsSdk: n*t*f*Q*e*y*u*c*s*C*l* u*l* [main-1](/:33262)
+04-26 11:02:11.856  2856  2856 E Thermal-daemon: [ap] temp_new :41  temp_old :42
+04-26 11:02:11.856  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :41  report_threshold:1
+04-26 11:02:11.856 19421 19421 I HwCust  : Constructor found for class com.android.contacts.HwCustContactApplicationHelperImpl
+04-26 11:02:11.888 19421 19421 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+04-26 11:02:11.891 19421 19443 I HwCust  : Constructor found for class com.android.contacts.preference.HwCustContactsPreferencesImpl
+04-26 11:02:11.905 19421 19443 I HwCust  : Constructor found for class com.android.contacts.model.account.HwCustFallbackAccountTypeImpl
+04-26 11:02:11.921 19421 19421 W CfgFilePolicy: No config file found for:xml/rcs_defaults.xml
+04-26 11:02:11.958 19421 19449 I HwCust  : Constructor found for class com.android.contacts.model.account.HwCustAccountModelCustomizationImpl
+04-26 11:02:11.983 19421 19449 I HwCust  : Constructor found for class com.android.contacts.model.account.HwCustExchangeAccountTypeImpl
+04-26 11:02:11.986  3446  3458 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+04-26 11:02:11.995  3446  4474 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+04-26 11:02:12.022  2808  8582 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:12.022  2808  8582 I [Gralloc]: alloc succ handle[0x55ca44c2c0] stride[32]
+04-26 11:02:12.023 19450 19462 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.023 19450 19462 E linker  : warning: unable to get realpath for the library "/system/lib/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:12.025 19450 19462 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.025 19450 19462 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:12.028 19450 19462 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:12.166 19468 19468 E dex2oat : Failed to create oat file: /data/dalvik-cache/arm/system@priv-app@Browser@Browser_uc.apk@classes.dex: Permission denied
+04-26 11:02:12.166 19468 19468 I dex2oat : dex2oat took 784.583us (threads: 4) 
+04-26 11:02:12.175 19450 19450 W art     : Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=smp,div,atomic_ldrd_strd --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=cortex-a15 --instruction-set-features=default --dex-file=/system/priv-app/Browser/Browser_uc.apk --oat-file=/data/dalvik-cache/arm/system@priv-app@Browser@Browser_uc.apk@classes.dex) because non-0 exit status
+04-26 11:02:12.686 19450 19450 I art     : System.exit called, status: 0
+04-26 11:02:12.687 19450 19450 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+04-26 11:02:12.785  3446  3556 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:02:12.785  3446  3556 I MediaProcessHandler: processOp opType: 1, uid: 10024, pid: 19450
+04-26 11:02:12.785  3446  3556 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10024, pid: 19450
+04-26 11:02:12.818  3446  4447 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+04-26 11:02:12.867  2808  2934 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:12.867  2808  2934 I [Gralloc]: alloc succ handle[0x55ca44c280] stride[32]
+04-26 11:02:12.868 19483 19495 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.868 19483 19495 E linker  : warning: unable to get realpath for the library "/system/lib/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:12.870 19483 19495 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.870 19483 19495 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:12.871 19483 19495 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:12.878 19421 19446 E linker  : readlink('/proc/self/fd/32') failed: Permission denied [fd=32]
+04-26 11:02:12.878 19421 19446 E linker  : warning: unable to get realpath for the library "/system/framework/oat/arm64/com.android.contacts.separated.odex". Will use given name.
+04-26 11:02:12.921  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.hwvplayer.youku:pushservice time:2971666ms, crash:23 uid:10018
+04-26 11:02:12.971  2808 10235 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:12.972  2808 10235 I [Gralloc]: alloc succ handle[0x55ca5e3a30] stride[32]
+04-26 11:02:12.973 19497 19510 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.973 19497 19510 E linker  : warning: unable to get realpath for the library "/system/lib/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:12.975 19497 19510 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:12.975 19497 19510 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:12.978 19497 19510 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:13.027 19497 19497 I Bootstrap: Starting system startup ...
+04-26 11:02:13.034 19497 19497 I Configurator: onlineEnable: true, emotionVersion :9
+04-26 11:02:13.036 19497 19497 I EMUIVerStartup: EmuiUtils.VERSION.EMUI_SDK_INT: 9
+04-26 11:02:13.037 19497 19497 I EMUIVerStartup: isEMUI3x: true, isEMUI4x: true
+04-26 11:02:13.039 19497 19497 I Bootstrap: System startup in 20 ms.
+04-26 11:02:13.040 19497 19497 I HwVPlayerApp: Version : 1.4.5.311
+04-26 11:02:13.049 19497 19497 I HW_APPLICATION: APPLICATION ONCREATE ---- processId:19497
+04-26 11:02:13.051 19497 19497 I HW_APPLICATION: APPLICATION ONCREATE ---- processName:com.huawei.hwvplayer.youku:pushservice
+04-26 11:02:13.056 19497 19497 I PushLogSC2601: [main-1]action is android.intent.action.PACKAGE_ADDED(youku/null:-1)
+04-26 11:02:13.058 19497 19497 I PushLogSC2601: [main-1]run push selfshow(youku/null:-1)
+04-26 11:02:13.086 19497 19526 I PushLogSC2601: [Thread-728-728]framework push exist, use framework push first(youku/null:-1)
+04-26 11:02:13.088 18592 18592 I HwSystemManager: NotificationManagerReceiver:onReceive action = android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.095 18664 18664 I HwSystemManager: AppInstallationReceiver:AppInstallationReceiver onReceive action = android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.108 18592 19527 W CfgFilePolicy: No config file found for:xml/hsm/notification/hsm_notificationcenter_defvalue.xml
+04-26 11:02:13.111 18664 19531 I HwSystemManager: OptimizeReceiver:OptimizeReceiver received action:android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.113 18592 19527 I HwSystemManager: NmCenterDefValueXmlHelper:mCachedConfigs = null, init.
+04-26 11:02:13.116 18592 19527 I HwSystemManager: NotificationDBAdapter:initNewApp: add to db:com.dc.hwsj, default:null
+04-26 11:02:13.116 18664 18768 I HwSystemManager: ProtectAppControl:handleMessage:6
+04-26 11:02:13.118 18664 18768 I HwSystemManager: ProtectAppControl:begin install app inner:com.dc.hwsj
+04-26 11:02:13.125 18664 18664 I HwSystemManager: BootBroadcastReceiver:BootBroadcastReceiver action =android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.131 18664 19532 I HwSystemManager: HandlePackageAdd:HandlePackageAdd replacing=false
+04-26 11:02:13.139 18664 19533 I HwSystemManager: UnifiedPowerAppControl:handleMessage:6
+04-26 11:02:13.139 18664 19533 I HwSystemManager: UnifiedPowerAppControl:begin install app inner:com.dc.hwsj
+04-26 11:02:13.144 18664 19533 I HwSystemManager: UnifiedPowerAppControl: null == unifiedPowerBean
+04-26 11:02:13.152 18664 18768 I HwSystemManager: PowerGenieDbHelper:delete protect app:com.dc.hwsj
+04-26 11:02:13.152 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/permission/hsm_permission_black_apps.xml
+04-26 11:02:13.153 18664 18664 I HwSystemManager: NetAppDBManager:insert to db: name = com.dc.hwsj uid = 15696 app type = false
+04-26 11:02:13.154 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/bootstart/hsm_bootstart_black_apps.xml
+04-26 11:02:13.157 18664 19533 I HwSystemManager: UnifiedPowerAppControl:applyControlPolicy pkgName =com.dc.hwsj hasIcon =true
+04-26 11:02:13.157 18664 19533 I HwSystemManager: UnifiedPowerAppControl:applyControlPolicy 2
+04-26 11:02:13.157 18664 19533 I HwSystemManager: UnifiedPowerAppControl:applyControlPolicy 4
+04-26 11:02:13.159 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/notification/hsm_notification_white_apps.xml
+04-26 11:02:13.161 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/notification/hsm_notification_black_apps.xml
+04-26 11:02:13.162 18664 19533 W HwSystemManager: UnifiedPowerAppControl:useCloudDataOverwriteLocalBean null of com.dc.hwsj
+04-26 11:02:13.162 18664 19533 I HwSystemManager: UnifiedPowerAppControl:apkName com.dc.hwsj protect = false show =true
+04-26 11:02:13.167 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/dropzone/hsm_dropzone_white_apps.xml
+04-26 11:02:13.175 18592 19534 I HwSystemManager: ProtectAppService:send unprotect list broadcast to FWK, isSleepingSave: false, size: 26
+04-26 11:02:13.175 18592 19534 I HwSystemManager: , unprotect list:[com.android.calculator2, com.huawei.android.thememanager, com.huawei.compass, com.lifevibes.grouprecorder, com.hfzqsc, com.android.im, cn.testin.test, com.SAGE.JIAMI360, com.rare.chat, com.doumee.chaofangtuan, com.im.xhj.android, com.asw.moneyback.uat, com.yanxin.eloanan, com.beeplay123.by001, com.winho.joyphotos, com.zm.qyhjfkb.qihoo, com.lz.xuepu, com.opd2c.athena.qihoo, com.tuohaicare.homecare, com.ledreamer.zz, ltd.delite.douqu, com.meibai.yinzuan, cn.testin.itestin.test, cn.testin.itestin, com.u398813598.vqx, com.dc.hwsj]
+04-26 11:02:13.175 18592 19534 I SendBroadcastPermission: action:huawei.intent.action.HW_STOPPED_PACKAGE_ACTION, mPermissionType:0
+04-26 11:02:13.177 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/dropzone/hsm_dropzone_black_apps.xml
+04-26 11:02:13.182  3656  3958 I ActivityThread: Acquiring provider com.huawei.systemmanager.NotificationDBProvider for user 0: existing object's process dead
+04-26 11:02:13.182  4413  4413 I ash     : apps protected state changed by system manager.
+04-26 11:02:13.182 18592 18783 I HwSystemManager: SmartProvider:retUri =content://com.huawei.android.smartpowerprovider/unifiedpowerapps/97
+04-26 11:02:13.183 18664 19533 I HwSystemManager: SmartProviderHelper:insertUnifiedPowerAppListForDB  type:false pkg=com.dc.hwsj show=true
+04-26 11:02:13.184 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/netaccess/hsm_netaccess_white_apps.xml
+04-26 11:02:13.185  4413  4413 I ash     : apps protected state changed by system manager.
+04-26 11:02:13.186 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/netaccess/hsm_netaccess_black_apps.xml
+04-26 11:02:13.188 18592 18834 I HwSystemManager: HsmPackageManager:get all installed packages, flag:0, size:133
+04-26 11:02:13.189 18664 19530 W CfgFilePolicy: No config file found for:xml/hsm/applock/hsm_applock_white_apps.xml
+04-26 11:02:13.191 18664 19530 W CfgFilePolicy: No config file found for:xml/default_white_package_name.xml
+04-26 11:02:13.193 18664 19530 W CfgFilePolicy: No config file found for:xml/default_black_package_name.xml
+04-26 11:02:13.235 18664 18664 W CfgFilePolicy: No config file found for:xml/hsm/dropzone/hsm_dropzone_default_value.xml
+04-26 11:02:13.257 18664 19530 W CfgFilePolicy: No config file found for:xml/hw_permission_parameter.xml
+04-26 11:02:13.300 18664 19530 I HwSystemManager: PermissionDbHelper: DBHelper Create Database!  : SQLiteDatabase: /data/user/0/com.huawei.systemmanager/databases/permission.db
+04-26 11:02:13.305 18664 19530 I HwSystemManager: HsmPackageManager:get all installed packages, flag:0, size:133
+04-26 11:02:13.305 18664 19530 E HwSystemManager: PermissionDBAdapter:appcationsList size:133
+04-26 11:02:13.320 18664 18664 W HwSystemManager: AddViewAppManager:Current installed app not apply system_alert_window or applicationInfo null!
+04-26 11:02:13.366 18664 19541 I HwSystemManager: SpaceCleanReceiver:receive intent:android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.381  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.hwmwlauncher time:3053303ms, crash:17 uid:10045
+04-26 11:02:13.381 18592 18592 E HwSystemManager: AppCleanUpService:msg is 0
+04-26 11:02:13.384 18664 19541 I HwSystemManager: SpaceCleanReceiver:package added: com.dc.hwsj
+04-26 11:02:13.385  4413  4950 I ash     : start refresh apps
+04-26 11:02:13.386 18592 19547 I HwSystemManager: AppCleanUpService:begin to insertAppWithPkgName, pkg:com.dc.hwsj
+04-26 11:02:13.387  4413  4950 I ash     : refresh apps,  smcs provider does not implement call.
+04-26 11:02:13.394 18664 19541 E HwSystemManager: SpaceCleanReceiver:doPkgAdd pi is not valid permission
+04-26 11:02:13.406 18592 18834 I HwSystemManager: NotificationDBProvider:queryNotificationLimits , return bundle
+04-26 11:02:13.463 18592 19535 I HwSystemManager: TencentAntiVirusEngine:initQScanner: nInitCode = 0
+04-26 11:02:13.467 18664 19530 I HwSystemManager: PermissionDBAdapter:There are new apps need to init:[com.dc.hwsj]
+04-26 11:02:13.468  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-55 "testin04_default"WPA_PSK
+04-26 11:02:13.471 18664 19556 I HwSystemManager: PermissionDBAdapter:Ignore non-system APPs when do first init.
+04-26 11:02:13.472 18664 19530 I HwSystemManager: CommonFunctionUtil:updatePermissionCfgFromPrepermission, compareCode = 33554432
+04-26 11:02:13.482  2808 10235 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:13.482  2808 10235 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:13.484 19542 19557 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.484 19542 19557 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:13.491 18664 19540 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:13.491 19542 19557 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.491 19542 19557 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:13.498 19542 19557 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:13.510 19542 19542 W System  : ClassLoader referenced unknown path: /system/app/HwMwLauncher/lib/arm64
+04-26 11:02:13.550 18664 19540 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:13.564 18664 19530 I HwSystemManager: CommonFunctionUtil:updatePermissionCfgFromPrepermission: Auto-apply recommend permission switch is on
+04-26 11:02:13.565 18664 19530 I HwSystemManager: InstallPermissionHelper:getPermissionBaseInfo: origCode = 0, origCfg = 0
+04-26 11:02:13.570  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.android.karaokeeffect time:2970932ms, crash:22 uid:1000
+04-26 11:02:13.612 19542 19542 I SendBroadcastPermission: action:com.huawei.multiwindow.launcher.action.REFRESH_MW_LAUNCHER, mPermissionType:0
+04-26 11:02:13.615 18592 18742 W HwSystemManager: AbsRecommendQuery:queryRecommendData get a invalid cursor, maybe no matched result exist!
+04-26 11:02:13.623 18664 19530 E HwSystemManager: InstallPermissionHelper:error getRecommendItemList Exception
+04-26 11:02:13.623 18664 19530 I HwSystemManager: InstallPermissionHelper:getPermissionBaseInfo: No recommend permission for pkg com.dc.hwsj
+04-26 11:02:13.649 18664 19530 I HwSystemManager: HsmPackageManager:get all installed packages, flag:0, size:133
+04-26 11:02:13.649 18664 19530 E HwSystemManager: PermissionDBAdapter:appcationsList size:133
+04-26 11:02:13.650  2808  8582 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:13.651  2808  8582 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:13.657 19563 19576 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.659 18664 19530 I HwSystemManager: CommonFunctionUtil:pkgName sync config to M Permission group; contentValues:permissionCfg=0 uid=15696 packageName=com.dc.hwsj trust=0 permissionCode=0
+04-26 11:02:13.661 19563 19576 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:13.663 19563 19576 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.663 19563 19576 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:13.665 19563 19576 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:13.698 18664 19530 I HwSystemManager: HsmPackageManager:get all installed packages, flag:0, size:133
+04-26 11:02:13.698 18664 19530 E HwSystemManager: PermissionDBAdapter:appcationsList size:133
+04-26 11:02:13.704 19563 19563 W System  : ClassLoader referenced unknown path: /system/app/HwKaraokeEffect/lib/arm64
+04-26 11:02:13.715 18664 19530 I SendBroadcastPermission: action:PACKAGE_ADDED_OR_REMOVED, mPermissionType:0
+04-26 11:02:13.737 19563 19563 I karaokeeffect.IntentReceiver: Intent received, action=android.intent.action.PACKAGE_ADDED
+04-26 11:02:13.738 19563 19563 I karaokeeffect.DataPortal: DataPortal
+04-26 11:02:13.774 19563 19563 I karaokeeffect.DataPortal: checkAndAddApp, packageName=com.dc.hwsj
+04-26 11:02:13.795  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.android.pushagent time:2970893ms, crash:23 uid:10049
+04-26 11:02:13.828 18664 19540 I HwSystemManager: ServerRequestHelper:checkServerResponseCode: resultCode = 20000
+04-26 11:02:13.833 18664 19540 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:13.850  2808  2934 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:13.850  2808  2934 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:13.851 19580 19594 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.851 19580 19594 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:13.853 19580 19594 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.853 19580 19594 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:13.855 19580 19594 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:13.878 19580 19580 W System  : ClassLoader referenced unknown path: /system/app/HwPushService/lib/arm64
+04-26 11:02:13.892 19580 19580 I PushLogAC2613: [main-1]action is android.intent.action.PACKAGE_ADDED(pushagent/null:-1)
+04-26 11:02:13.894 19580 19580 I PushLogAC2613: [main-1]run push selfshow(pushagent/null:-1)
+04-26 11:02:13.894 18664 19540 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:13.915 19580 19603 I PushLogAC2613: [Thread-2318-2318]framework push exist, use framework push first(pushagent/null:-1)
+04-26 11:02:13.974  2808  2936 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:13.974  2808  2936 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:13.975 19604 19618 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.975 19604 19618 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:13.977 19604 19618 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:13.977 19604 19618 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:13.978 19604 19618 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:14.000 19604 19604 W System  : ClassLoader referenced unknown path: /system/app/HwUserExperience/lib/arm64
+04-26 11:02:14.018 19604 19604 I BDLog   : BD.BDService:onStartCommand
+04-26 11:02:14.019 19604 19604 I BDLog   : BD.BDService:create and add
+04-26 11:02:14.035  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.skytone:pushservice time:2970712ms, crash:23 uid:1001
+04-26 11:02:14.077  2808  3547 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:14.077  2808  3547 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:14.078 19622 19634 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:14.078 19622 19634 E linker  : warning: unable to get realpath for the library "/system/lib/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:14.080 18664 19540 I HwSystemManager: ServerRequestHelper:checkServerResponseCode: resultCode = 20000
+04-26 11:02:14.080 19622 19634 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:14.080 19622 19634 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:14.082 19622 19634 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:14.165 19637 19637 E dex2oat : Failed to create oat file: /data/dalvik-cache/arm/system@app@SkyTone@SkyTone.apk@classes.dex: Permission denied
+04-26 11:02:14.165 19637 19637 I dex2oat : dex2oat took 766.458us (threads: 4) 
+04-26 11:02:14.167 19622 19622 W art     : Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=smp,div,atomic_ldrd_strd --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=cortex-a15 --instruction-set-features=default --dex-file=/system/app/SkyTone/SkyTone.apk --oat-file=/data/dalvik-cache/arm/system@app@SkyTone@SkyTone.apk@classes.dex) because non-0 exit status
+04-26 11:02:14.456 19622 19622 I LibV1.0.1-AccountMgr: begin check so
+04-26 11:02:14.713 19622 19622 I LibV1.0.1-AccountMgr: end check so ok
+04-26 11:02:14.787 19622 19622 I PushLogSC2609: [main-1]action is android.intent.action.PACKAGE_ADDED(skytone/null:-1)
+04-26 11:02:14.790 19622 19622 I PushLogSC2609: [main-1]run push selfshow(skytone/null:-1)
+04-26 11:02:14.817 19622 19648 I PushLogSC2609: [Thread-727-727]framework push exist, use framework push first(skytone/null:-1)
+04-26 11:02:14.822  4413  4950 W AppsCleanUp: frequently crash process:com.huawei.android.remotecontrol:pushservice time:2970872ms, crash:23 uid:10073
+04-26 11:02:14.878  2808  8582 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:14.878  2808  8582 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:14.879 19650 19664 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:14.879 19650 19664 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:14.881 19650 19664 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:14.881 19650 19664 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:14.883 19650 19664 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:14.982 19668 19668 E dex2oat : Failed to create oat file: /data/dalvik-cache/arm64/system@app@HwPhoneFinder@HwPhoneFinder.apk@classes.dex: Permission denied
+04-26 11:02:14.983 19668 19668 I dex2oat : dex2oat took 730.625us (threads: 4) 
+04-26 11:02:14.985 19650 19650 W art     : Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm64 --instruction-set-features=smp,a53 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=generic --instruction-set-features=default --dex-file=/system/app/HwPhoneFinder/HwPhoneFinder.apk --oat-file=/data/dalvik-cache/arm64/system@app@HwPhoneFinder@HwPhoneFinder.apk@classes.dex) because non-0 exit status
+04-26 11:02:15.094  2810  2830 I teecd   : Connected. UID=1000, PID=3446
+04-26 11:02:15.233  2810  2830 E tee_get_app_cert: cannot find package:system_server
+04-26 11:02:15.233  2810  2830 E tee_get_app_cert: get certs for app failed
+04-26 11:02:15.258  2810  2830 I teecd   : Got certificate buffer len 107!
+04-26 11:02:15.259  2810  2830 I teecd   : Waiting for a connection...
+04-26 11:02:15.346  2810  2830 I teecd   : Connected. UID=1000, PID=3446
+04-26 11:02:15.476  2810  2830 E tee_get_app_cert: cannot find package:system_server
+04-26 11:02:15.476  2810  2830 E tee_get_app_cert: get certs for app failed
+04-26 11:02:15.501  2810  2830 I teecd   : Got certificate buffer len 107!
+04-26 11:02:15.501  2810  2830 I teecd   : Waiting for a connection...
+04-26 11:02:15.588  2810  2869 E teecd   : access file(/sec_storage/306DA8DE8BA02B6C43F47D0A7390D7117C3A684938A8D0D2797507E5F3F67C03) mode(0) failed: No such file or directory
+04-26 11:02:15.597  3446  3556 E libteec : [error] TEEC_InvokeCommand: invoke cmd failed, code=0xffff5002, origin=4
+04-26 11:02:15.597  3446  3556 E huawei_antiTheft: invoke command 20002 failed, code=0xffff5002, origin=0x4 , type=0x1 in huawei_antiTheft_getFileSize
+04-26 11:02:15.597  3446  3556 E HwAntiTheftService_jni: native_read getFileSize fail
+04-26 11:02:15.660 19650 19650 E hisync.STUtils: decrypterCbc Exception
+04-26 11:02:15.662 19650 19650 E hisync.STUtils: decrypterCbc Exception
+04-26 11:02:15.663 19650 19650 E hisync.STUtils: decrypterCbc Exception
+04-26 11:02:15.664 19650 19650 E hisync.STUtils: decrypterCbc Exception
+04-26 11:02:15.673 19650 19650 I PushLogSC2609: [main-1]action is android.intent.action.PACKAGE_ADDED(remotecontrol/null:-1)
+04-26 11:02:15.677 19650 19650 I PushLogSC2609: [main-1]run push selfshow(remotecontrol/null:-1)
+04-26 11:02:15.705 19650 19677 I PushLogSC2609: [Thread-2328-2328]framework push exist, use framework push first(remotecontrol/null:-1)
+04-26 11:02:15.709  4413  4950 W AppsCleanUp: frequently crash process:com.android.huawei.projectmenu time:3066063ms, crash:17 uid:1000
+04-26 11:02:15.710  4413 11957 I PgedBinderListener: kstate callback type:8 value1=18962 value2=KILLED
+04-26 11:02:15.821  2808  2934 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:15.822  2808  2934 I [Gralloc]: alloc succ handle[0x55ca6a9a50] stride[32]
+04-26 11:02:15.823 19678 19692 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:15.823 19678 19692 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:15.826 19678 19692 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:15.826 19678 19692 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:15.828 19678 19692 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:15.836  3446  4427 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:02:15.836  3446  4427 I MediaProcessHandler: processOp opType: 1, uid: 10023, pid: 18962
+04-26 11:02:15.836  3446  4427 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10023, pid: 18962
+04-26 11:02:15.873  4413  4449 I PgedBinderListener: kstate callback type:8 value1=19077 value2=KILLED
+04-26 11:02:15.940  3446 18540 E HsmCoreServiceImpl: onTransact in code is: 102
+04-26 11:02:15.940  3446 18540 I MediaProcessHandler: processOp opType: 1, uid: 10031, pid: 19077
+04-26 11:02:15.940  3446 18540 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10031, pid: 19077
+04-26 11:02:16.483  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:16.576  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:02:16.860  2856  2856 E Thermal-daemon: [ap] temp_new :40  temp_old :41
+04-26 11:02:16.860  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :40  report_threshold:1
+04-26 11:02:19.113 19338 19440 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:19.449 19338 19481 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:19.495  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:19.864  4413  4413 I PGUtils : im apps = [com.alibaba.mobileim, com.taobao.qianniu, com.jd.im.seller, jd.dd.seller, com.facebook.orca, com.immomo.momo, com.eg.android.AlipayGphone, com.tencent.mm, com.tencent.mobileqq]
+04-26 11:02:19.891  4413  4413 I ash     : AppStaticDB change !
+04-26 11:02:21.133 19338 19396 W HiApp.NetworkUtil: pool-10-thread-1{2348} <<< WARN >>> OTA host Exception!
+04-26 11:02:21.135 19338 19396 W HiApp.StoreAgent: pool-10-thread-1{2348} <<< WARN >>> doPostWithDnsParse() error, method:client.installResultRep, url:https://stores1.hispace.hicloud.com/hwmarket/api/encryptApi2, java.net.ConnectException: Failed to connect to host stores1.hispace.hicloud.com
+04-26 11:02:21.139 19338 19396 E HiApp.StoreAgent: pool-10-thread-1{2348} <<< ERROR >>> invoke store error, exceptionType:ConnectException, url:https://stores1.hispace.hicloud.com/hwmarket/api/encryptApi2, method:client.installResultRep, retryTimes:0
+04-26 11:02:21.451 19338 19396 W HiApp.NetworkUtil: pool-9-thread-1{2350} <<< WARN >>> OTA host Exception!
+04-26 11:02:21.453 19338 19396 W HiApp.StoreAgent: pool-9-thread-1{2350} <<< WARN >>> doPostWithDnsParse() error, method:client.diffUpgrade2, url:https://stores1.hispace.hicloud.com/hwmarket/api/storeApi2, java.net.ConnectException: Failed to connect to host stores1.hispace.hicloud.com
+04-26 11:02:21.454 19338 19396 E HiApp.StoreAgent: pool-9-thread-1{2350} <<< ERROR >>> invoke store error, exceptionType:ConnectException, url:https://stores1.hispace.hicloud.com/hwmarket/api/storeApi2, method:client.diffUpgrade2, retryTimes:0
+04-26 11:02:21.460 19338 19396 E HiApp.UpdateManager/UpdateCheckImpl: pool-9-thread-1{2350} <<< ERROR >>> get app update msg failed,responseCode is 3
+04-26 11:02:21.615  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] down event  x = 999 y = 999
+04-26 11:02:21.615  4478  4478 I HwLauncher: Launcher  while lockScreenOrientation,isRotationEnabled is false!
+04-26 11:02:21.615  4478  4478 I HwLauncher:  FPSMonitor [PagedView , onIntercept] down event  x = 999 y = 999
+04-26 11:02:21.616  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] down event  x = 999 y = 999
+04-26 11:02:21.692  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] up event  x = 999 y = 999
+04-26 11:02:21.694  4478  4478 I HwLauncher:  FPSMonitor [PagedView , onIntercept] up event  x = 999 y = 999
+04-26 11:02:21.694  4478  4478 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+04-26 11:02:21.694  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] up event  x = 999 y = 999
+04-26 11:02:21.864  2856  2856 E Thermal-daemon: [ap] temp_new :39  temp_old :40
+04-26 11:02:21.864  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :39  report_threshold:1
+04-26 11:02:22.508  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-56 "testin04_default"WPA_PSK
+04-26 11:02:25.283  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] down event  x = 853 y = 853
+04-26 11:02:25.283  4478  4478 I HwLauncher: Launcher  while lockScreenOrientation,isRotationEnabled is false!
+04-26 11:02:25.284  4478  4478 I HwLauncher:  FPSMonitor [PagedView , onIntercept] down event  x = 853 y = 853
+04-26 11:02:25.285  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] down event  x = 853 y = 853
+04-26 11:02:25.464  4478  4478 I HwLauncher:  FPSMonitor startScroll xMoved = true  xPaged = true xDiff =  220
+04-26 11:02:25.527  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-56 "testin04_default"WPA_PSK
+04-26 11:02:25.615  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent begin, false, true] up event  x = 395 y = 395
+04-26 11:02:25.615  4478  4478 I HwLauncher:  FPSMonitor [PagedView , onTouchEvent] up event  x = 395 y = 395
+04-26 11:02:25.616  4478  4478 I HwLauncher:  FPSMonitor snapToPage whichPage = 2 delta = 630 duration = 976
+04-26 11:02:25.616  4478  4478 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+04-26 11:02:25.616  4478  4478 I HwLauncher:  FPSMonitor [Launcher , dispatchTouchEvent end, false, true] up event  x = 395 y = 395
+04-26 11:02:25.994  4478  4478 I HwLauncher:  FPSMonitor endScroll
+04-26 11:02:26.587  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:02:26.868  2856  2856 E Thermal-daemon: [ap] temp_new :38  temp_old :39
+04-26 11:02:26.868  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :38  report_threshold:1
+04-26 11:02:26.870  4413  4949 I ThermalStateManager: sensor name: cpu temperature: 38 , thermal action: cpu_a15 policy:0
+04-26 11:02:26.870  4413  4949 I ThermalStateManager: sensor name: cpu temperature: 38 , thermal action: gpu policy:0
+04-26 11:02:28.540  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-56 "testin04_default"WPA_PSK
+04-26 11:02:31.555  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:31.655  4478 19708 W HwLauncher: getDownloadInfo return null!
+04-26 11:02:31.872  2856  2856 E Thermal-daemon: [ap] temp_new :37  temp_old :38
+04-26 11:02:31.872  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :37  report_threshold:1
+04-26 11:02:34.568  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:36.459  4955  5269 I Bluetooth: HeadsetStateMachine:Disconnected process message: 10, size: 0
+04-26 11:02:36.459  4442  6190 I HwPowerMonitor.PowerExceptionObservable: unhandled onEvent actionID: 3002
+04-26 11:02:36.459  4442  4442 I HwPowerMonitor.DayActObserver: in PowerMonitorHandler, will handle msg.what = battery_changed, Utils.isCharging() = true
+04-26 11:02:36.608  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:02:36.876  2856  2856 E Thermal-daemon: [ap] temp_new :36  temp_old :37
+04-26 11:02:36.876  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :36  report_threshold:1
+04-26 11:02:37.577  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:38.102 19717 19717 I appproc : CLASSPATH=/system/framework/wm.jar
+04-26 11:02:38.102 19717 19717 I appproc : Command=app_process /system/bin com.android.commands.wm.Wm size 
+04-26 11:02:38.106 19717 19717 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:02:38.159 19717 19717 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:02:38.167 19717 19717 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:02:38.169 19717 19717 I         : power log dlsym ok
+04-26 11:02:38.171 19717 19717 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:02:38.182 19717 19717 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:02:38.182 19717 19717 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:02:38.182 19717 19717 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:02:38.183 19717 19717 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:02:38.183 19717 19717 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:02:38.183 19717 19717 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:02:39.065 19734 19734 I appproc : CLASSPATH=/system/framework/monkey.jar
+04-26 11:02:39.065 19734 19734 I appproc : Command=app_process /system/bin com.android.commands.monkey.Monkey -p com.dc.hwsj -s 656 --throttle 300 --ignore-crashes --ignore-timeouts --pct-touch 80 --pct-trackball 5 --pct-appswitch 5 --pct-syskeys 5 --pct-motion 5 -v -v 100 
+04-26 11:02:39.070 19734 19734 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+04-26 11:02:39.124 19734 19734 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+04-26 11:02:39.133 19734 19734 E HAL     : load: id=memtrack != hmi->id=memtrack
+04-26 11:02:39.134 19734 19734 I         : power log dlsym ok
+04-26 11:02:39.136 19734 19734 I Radio-JNI: register_android_hardware_Radio DONE
+04-26 11:02:39.147 19734 19734 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+04-26 11:02:39.147 19734 19734 I android_hardware_fm.cpp: ========64bit long size = 8
+04-26 11:02:39.147 19734 19734 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+04-26 11:02:39.148 19734 19734 E HAL     : load: id=fm != hmi->id=fm
+04-26 11:02:39.148 19734 19734 E fm_if.c : find the id:fm and begins to open the devices
+04-26 11:02:39.148 19734 19734 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+04-26 11:02:39.212  4413  4413 I K3V3CpuGovernorPolicy: set scene Hmp policy : 300 , 150
+04-26 11:02:39.229  4478  4478 I HwLauncher: Launcher onPause()
+04-26 11:02:39.231  4478 19749 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 402
+04-26 11:02:39.231  4478 19750 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 403
+04-26 11:02:39.231  4478 19749 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 402 is unavailable
+04-26 11:02:39.231  4478 19750 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+04-26 11:02:39.235  9502  9554 I testin-agent: client ready>:59c3b57d16a578cb4cd26ed10f8S1,true
+04-26 11:02:39.235  9502  9554 I testin-agent: mq:{"op":"activity.change","code":0,"message":"","data":{"topActivity":"com.dc.hwsj\/com.dc.hwsj.LuaActivity"}}
+04-26 11:02:39.265  4478  4478 I TotemWeather: AbstractDualWeatherWidgetHomeView onWindowFocusChanged, hasWindowFocus= false
+04-26 11:02:39.272  2808  2934 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2355]
+04-26 11:02:39.272  2808  3008 I [Gralloc]: alloc w[1080] h[1920] format[1] usage[3]
+04-26 11:02:39.272  2808  2934 I [Gralloc]: alloc succ handle[0x55ca5bf570] stride[1120]
+04-26 11:02:39.276  2808  3008 I [Gralloc]: alloc succ handle[0x55ca672000] stride[1120]
+04-26 11:02:39.292  4413  4997 W PGApi_client: recv actoionId = 10000, action = com.huawei.pgmng.PGAction@3dc61a8 actionId =10000 pkg =com.dc.hwsj extend1 =2 extend2 = flag =3 type =1
+04-26 11:02:39.292  4413  4997 W PGMiddleWare: in handleAction method, action = 10000
+04-26 11:02:39.292  4413  4997 W PGMiddleWare: in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@9f26c77, action = com.huawei.pgmng.PGAction@3dc61a8 actionId =10000 pkg =com.dc.hwsj extend1 =2 extend2 = flag =3 type =1
+04-26 11:02:39.303 18592 18672 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:15696
+04-26 11:02:39.309  2808  8582 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:39.309  2808  8582 I [Gralloc]: alloc succ handle[0x55ca6af2e0] stride[32]
+04-26 11:02:39.311 19752 19764 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:39.311 19752 19764 E linker  : warning: unable to get realpath for the library "/system/lib/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:39.314 19752 19764 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:39.314 19752 19764 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:39.315 19752 19764 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:39.352 19752 19752 I MultiDex: VM with version 2.1.0 has multidex support
+04-26 11:02:39.352 19752 19752 I MultiDex: install
+04-26 11:02:39.352 19752 19752 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+04-26 11:02:39.407 18592 18602 I HwSystemManager: HoldService:sendHoldBroadcast begin!
+04-26 11:02:39.416 18664 18664 I HwSystemManager: HoldDialogShowService:init orientation:1
+04-26 11:02:39.427 19752 19752 I HwCust  : Constructor found for class android.app.HwCustAlarmManagerImpl
+04-26 11:02:39.433 19752 19752 I FirebaseInitProvider: FirebaseApp initialization successful
+04-26 11:02:39.434 18664 18664 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+04-26 11:02:39.436 18664 18664 I HwSystemManager: CommonCountDownDialog:mSupperApp:false
+04-26 11:02:39.448 18664 18664 I HwCust  : Constructor found for class android.widget.HwCustTextViewImpl
+04-26 11:02:39.483 19752 19773 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:39.490 19752 19779 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:39.507 19752 19770 I FA      : App measurement is starting up, version: 11910
+04-26 11:02:39.507 19752 19770 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+04-26 11:02:39.509 18664 18664 I HwCust  : Constructor found for class android.widget.HwCustTextViewImpl
+04-26 11:02:39.511 19752 19770 I FA      : To enable faster debug mode event logging run:
+04-26 11:02:39.511 19752 19770 I FA      :   adb shell setprop debug.firebase.analytics.app com.dc.hwsj
+04-26 11:02:39.541  4413  4950 I ash     : view add pid:18664 uid:1000
+04-26 11:02:39.546 19752 19773 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:39.548  3446  3549 I InputDispatcher: Dropping event because there is no touchable window at (1063, 150).
+04-26 11:02:39.553 19752 19752 I art     : Thread[1,tid=19752,Native,Thread*=0xab0a99d8,peer=0x74f0b280,"main"] recursive attempt to load library "/data/app/com.dc.hwsj-1/lib/arm/libjnlua5.1.so"
+04-26 11:02:39.563 18592 18592 I HwSystemManager: HsmStat_event:current is not foreground, did not stat r!
+04-26 11:02:39.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.570 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.570 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.571 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.571 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.571 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.571 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.571 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.572 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.572 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.572 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.572 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.572 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.573 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.573 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.573 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.575 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.576 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.577 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.577 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.578 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.579 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.580 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.580 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.580 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.580 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.581 19752 19752 I OpenAL_SLES: alc_opensles_init
+04-26 11:02:39.606 19752 19786 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:39.612 18664 18664 I HwSystemManager: CountDownDialog:onFocusChange called true
+04-26 11:02:39.614 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.615 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.615 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.615 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.615 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:39.616  2808  2936 I [Gralloc]: alloc w[800] h[565] format[1] usage[2355]
+04-26 11:02:39.617  2808  2936 I [Gralloc]: alloc succ handle[0x55ca68aa80] stride[800]
+04-26 11:02:39.661 19752 19752 W ResourceType: No package identifier when getting value for resource number 0x00000000
+04-26 11:02:39.668 19752 19752 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+04-26 11:02:39.724 19752 19752 I HwCust  : Constructor found for class android.widget.HwCustTextViewImpl
+04-26 11:02:39.862 19752 19752 I WebViewFactory: Loading com.google.android.webview version 45.0.2454.95 (code 246109550)
+04-26 11:02:39.929 19800 19800 E dex2oat : Failed to create oat file: /data/dalvik-cache/arm/system@app@WebViewGoogle@WebViewGoogle.apk@classes.dex: Permission denied
+04-26 11:02:39.929 19800 19800 I dex2oat : dex2oat took 461.875us (threads: 4) 
+04-26 11:02:39.930 19752 19752 W art     : Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=smp,div,atomic_ldrd_strd --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=cortex-a15 --instruction-set-features=default --dex-file=/system/app/WebViewGoogle/WebViewGoogle.apk --oat-file=/data/dalvik-cache/arm/system@app@WebViewGoogle@WebViewGoogle.apk@classes.dex) because non-0 exit status
+04-26 11:02:39.998  4413  4413 I K3V3CpuGovernorPolicy: close previously scene Hmp policy : 300 , 150
+04-26 11:02:40.065 19752 19752 W System  : ClassLoader referenced unknown path: /system/app/WebViewGoogle/lib/arm
+04-26 11:02:40.086 19752 19752 I cr.library_loader: Time to load native libraries: 5 ms (timestamps 6189-6194)
+04-26 11:02:40.086 19752 19752 I cr.library_loader: Expected native library version number "", actual native library version number ""
+04-26 11:02:40.114 19752 19752 I cr.library_loader: Expected native library version number "", actual native library version number ""
+04-26 11:02:40.115 19752 19752 I chromium: [INFO:library_loader_hooks.cc(121)] Chromium logging enabled: level = 0, default verbosity = 0
+04-26 11:02:40.154 19752 19752 I cr.BrowserStartup: Initializing chromium process, singleProcess=true
+04-26 11:02:40.164 19752 19752 E SysUtils: ApplicationContext is null in ApplicationStatus
+04-26 11:02:40.166 19752 19770 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:40.166 19752 19770 W FA      : Service invalid
+04-26 11:02:40.183 19752 19752 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:40.221 19752 19829 W cr.media: Requires BLUETOOTH permission
+04-26 11:02:40.222 19752 19752 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+04-26 11:02:40.345 19752 19752 W AwContents: onDetachedFromWindow called when already detached. Ignoring
+04-26 11:02:40.352 19752 19752 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+04-26 11:02:40.353 19752 19752 I System.out: appIdActivity: isactivity1019  false
+04-26 11:02:40.354 19752 19752 I System.out: activate url: https://hwsj.9longe.net:20888/frontend/distribute/v1/active_event
+04-26 11:02:40.362 19752 19838 I System.out: admonitor data: {"version":"1.8","app_id":"1019","act_id":"ad_trace_new","data":"{\"cp_app_id\":1019,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"ad_uuid\":\"\",\"channel_id\":0,\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247760,\"reserve\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:40.371 19752 19781 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.378 19752 19838 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.379 19752 19770 I FA      : Tag Manager is not found and thus will not be used
+04-26 11:02:40.385 19752 19781 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.416  3446  4474 W System.err: java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+04-26 11:02:40.417  3446  4474 W System.err: 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:1206)
+04-26 11:02:40.417  3446  4474 W System.err: 	at com.android.providers.settings.SettingsProvider.mutateSecureSetting(SettingsProvider.java:856)
+04-26 11:02:40.417  3446  4474 W System.err: 	at com.android.providers.settings.SettingsProvider.insertSecureSetting(SettingsProvider.java:833)
+04-26 11:02:40.417  3446  4474 W System.err: 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:285)
+04-26 11:02:40.417  3446  4474 W System.err: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:398)
+04-26 11:02:40.417  3446  4474 W System.err: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:283)
+04-26 11:02:40.417  3446  4474 W System.err: 	at android.os.Binder.execTransact(Binder.java:453)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: Writing exception to parcel
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:1206)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at com.android.providers.settings.SettingsProvider.mutateSecureSetting(SettingsProvider.java:856)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at com.android.providers.settings.SettingsProvider.insertSecureSetting(SettingsProvider.java:833)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:285)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at android.content.ContentProvider$Transport.call(ContentProvider.java:398)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:283)
+04-26 11:02:40.417  3446  4474 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:453)
+04-26 11:02:40.438 19752 19752 I System.out: Elva init------
+04-26 11:02:40.441 19752 19845 W System.err: android.content.pm.PackageManager$NameNotFoundException: com.android.vending
+04-26 11:02:40.441 19752 19845 W System.err: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:152)
+04-26 11:02:40.441 19752 19845 W System.err: 	at com.ljoy.chatbot.utils.AdvertisingIdClient.getAdvertisingIdInfo(AdvertisingIdClient.java:45)
+04-26 11:02:40.441 19752 19845 W System.err: 	at com.ljoy.chatbot.controller.ElvaServiceController$1.run(ElvaServiceController.java:183)
+04-26 11:02:40.441 19752 19845 W System.err: 	at java.lang.Thread.run(Thread.java:833)
+04-26 11:02:40.456 19752 19827 W chromium: [WARNING:data_reduction_proxy_config.cc(630)] SPDY proxy OFF at startup
+04-26 11:02:40.486 19752 19842 I OpenGLRenderer: Initialized EGL, version 1.4
+04-26 11:02:40.491 19752 19842 E linker  : readlink('/proc/self/fd/65') failed: Permission denied [fd=65]
+04-26 11:02:40.491 19752 19842 E linker  : warning: unable to get realpath for the library "/system/lib/libhwuibp.so". Will use given name.
+04-26 11:02:40.523 19752 19770 I FA      : This instance being marked as an uploader
+04-26 11:02:40.544  2808  8582 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2816]
+04-26 11:02:40.547 19752 19841 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:40.551  2808  8582 I [Gralloc]: alloc succ handle[0x55ca5689b0] stride[1120]
+04-26 11:02:40.554 19752 19847 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:40.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:40.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:40.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:40.571  3446  3472 I ActivityManager: Displayed com.dc.hwsj/.LuaActivity: +1s337ms
+04-26 11:02:40.578 19752 19838 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.580  2808 10235 I [Gralloc]: alloc w[800] h[565] format[1] usage[2355]
+04-26 11:02:40.582  2808 10235 I [Gralloc]: alloc succ handle[0x55ca568660] stride[800]
+04-26 11:02:40.586  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:40.599  4478  4478 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+04-26 11:02:40.600  4478  4478 I HwLauncher: Launcher onStop()
+04-26 11:02:40.759 19752 19847 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:40.953 19752 19795 W libOpenSLES: class OutputMix interface 0 requested but unavailable MPH=43
+04-26 11:02:40.999 19752 19795 I Corona  : Platform: HUAWEI P8max / ARM Neon / 6.0 / Mali-T624 / OpenGL ES 3.1 v1.r8p0-01dev0.4078cee201ea91f87ad24a89593523d2 / 2018.3326 / 中文 | CN | zh_CN | zh
+04-26 11:02:41.103 19752 19770 W FA      : Callable skipped the worker queue.
+04-26 11:02:41.320 19752 19795 I Corona  : sssssssssssssss:	750	1334
+04-26 11:02:41.322 19752 19859 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.324 19752 19795 I Corona  : ERROR: Unsupported key: supportsSessionProperty in audio library
+04-26 11:02:41.336 19752 19795 I Corona  : createHashFile = 	e98352716fb5d3ebdd7ad2cd5dee9b63e5afae86
+04-26 11:02:41.364 19752 19752 I System.out: eventId: event_38
+04-26 11:02:41.364 19752 19752 I System.out: timeStamp: 1556247761
+04-26 11:02:41.364 19752 19795 I Corona  : testAllRegions
+04-26 11:02:41.364 19752 19752 I System.out: ad_monitor_url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute
+04-26 11:02:41.364 19752 19752 I System.out: custom url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute/v1/custom_event
+04-26 11:02:41.366 19752 19861 I System.out: admonitor data: {"version":"1.8","app_id":"1019","act_id":"ad_trace_new","data":"{\"cp_app_id\":1019,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"event_id\":\"event_38\",\"event_name\":\"大区选择\",\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247761,\"reserve1\":\"\",\"reserve2\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:41.396 19752 19863 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.396 19752 19876 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.396 19752 19872 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.396 19752 19866 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.397 19752 19879 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.397 19752 19864 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.397 19752 19861 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.398 19752 19874 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.398 19752 19870 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.399 19752 19868 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.444 19752 19847 I System.out: Elva SendRequestNewTask result:{"forumBestUrl":"https://aihelp.net/forum/home/index/bestlist","faqdataForm":"https://cs30.net/elva/api/faqs2","faqYYdata":"https://cs30.net/elva/api/faqs1","faqdata":"https://cs30.net/elva/api/faqs","svrport":"1883","kcpServer":"wss26.aihelp.net","svrip":"wss26.aihelp.net","show_url":"https://cs30.net/elva/mFAQ/show.aspx","vipChatDomain":"aihelp.net","faqAimlFileName":"","forumUrl":"https://aihelp.net/forum","OperFileName":"6537f6715f669c09e5fa820639d4ae4b.json","storyAimlFileName":"78f49b873cde57eca447a62be925fd47.aiml","isReward":false,"topic":"topic","point":"https://cs30.net/elva/api/point","apiDomain":"cs30.net","showfaq":"https://cs30.net/elva/FAQ/ShowFAQ.aspx","cdnUrl":"https://cdn.aihelp.net/Elva","time":1555915683656,"initPeriod":0,"faqFileName":"ca742f67e507cc995b7d5e54195430f0.json","upload":"https://cs30.net/FileService/api/upload","showfaqlist":"https://cs30.net/elva/mFAQ/Naval.aspx","botEnable":"false","ip":"121.78.55.92"}
+04-26 11:02:41.452 19752 19882 E elvaLog : 向.net发送的请求：sdkVersion=1.4.3&l=zh_CN&appid=MechanistGames_platform_3317042a-af81-49df-bd59-e2ffcc197c06&faqkey=0
+04-26 11:02:41.458 19752 19847 E elvaLog : 创建文件夹路径aiml是否成功=true
+04-26 11:02:41.460 19752 19838 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:41.461 19752 19838 I System.out: appid: 1019  activate sendTime: 0 status: 1  info: ok
+04-26 11:02:41.463 19752 19887 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.464 19752 19883 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.477  2808 10235 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2816]
+04-26 11:02:41.483  2808 10235 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[1120]
+04-26 11:02:41.530 19752 19883 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.536  2808  3547 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2816]
+04-26 11:02:41.543  2808  3547 I [Gralloc]: alloc succ handle[0x55ca5a6df0] stride[1120]
+04-26 11:02:41.546  2808  8582 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2816]
+04-26 11:02:41.552  2808  8582 I [Gralloc]: alloc succ handle[0x55ca5612b0] stride[1120]
+04-26 11:02:41.556  2808  2934 I [Gralloc]: alloc w[1080] h[1830] format[1] usage[2816]
+04-26 11:02:41.562  2808  2934 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[1120]
+04-26 11:02:41.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:41.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:41.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:41.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:41.577 19752 19859 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19866 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19876 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19879 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19870 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19864 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.616 19752 19863 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.619 19752 19874 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.633 19752 19868 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.633 19752 19872 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.634 19752 19861 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.642 19752 19883 E elvaLog : 下载完成
+04-26 11:02:41.660 19752 19887 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.699 19752 19793 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:41.880  2856  2856 E Thermal-daemon: [ap] temp_new :37  temp_old :36
+04-26 11:02:41.880  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :37  report_threshold:1
+04-26 11:02:42.152 19752 19887 I System.out: Elva SendRequestNewDAUTask req:https://cs30.net/elva/api/initset_{"appId":"MechanistGames_platform_3317042a-af81-49df-bd59-e2ffcc197c06","deviceid":"81de7ab4b5304a519905c95a821aa11d","lan":"zh_CN"}
+04-26 11:02:42.250 19752 19885 E elvaLog : 下载完成
+04-26 11:02:42.458 19752 19886 E elvaLog : 4
+04-26 11:02:42.458 19752 19886 E elvaLog : 14
+04-26 11:02:42.459 19752 19886 E elvaLog : 25
+04-26 11:02:42.459 19752 19886 E elvaLog : 35
+04-26 11:02:42.459 19752 19886 E elvaLog : 45
+04-26 11:02:42.459 19752 19886 E elvaLog : 56
+04-26 11:02:42.459 19752 19886 E elvaLog : 66
+04-26 11:02:42.459 19752 19886 E elvaLog : 76
+04-26 11:02:42.459 19752 19886 E elvaLog : 86
+04-26 11:02:42.459 19752 19886 E elvaLog : 97
+04-26 11:02:42.459 19752 19886 E elvaLog : 100
+04-26 11:02:42.459 19752 19886 E elvaLog : 下载完成
+04-26 11:02:42.460 19752 19886 E elvaLog_exists: 78f49b873cde57eca447a62be925fd47_story.aiml
+04-26 11:02:42.573 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:42.573 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:42.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:42.574 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:42.642  3015  4306 I APM::AudioPolicyManager: startOutput() output 6, stream 1, session 13
+04-26 11:02:42.642  3015  4306 I APM::AudioPolicyManager: getNewOutputDevice() selected device 2
+04-26 11:02:42.642  3015  4306 I APM::AudioPolicyManager: setOutputDevice() device 0x0002 delayMs 0
+04-26 11:02:42.642  3015  4306 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:42.642  3015  4306 I APM::AudioPolicyManager: setOutputDevice() changing to device 0x0002 , muteWaitMs 0
+04-26 11:02:42.646  3015  3456 I audio_hw_primary: check_device_change return 1
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 5 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 4 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 1 device 0x2
+04-26 11:02:42.646  3015  4306 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:42.648  3446  3578 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 44100 Hz, output 48000 Hz
+04-26 11:02:42.650  3015  3785 I APM::AudioPolicyManager: startOutput() output 6, stream 1, session 518
+04-26 11:02:42.654 19752 19887 I System.out: Elva SendRequestNewDAUTask result:{"status":false,"code":0,"message":"","time":1556247762560,"data":false}
+04-26 11:02:42.656  3015  3456 I audio_hw_primary: start_output_stream++: out_type = 0, out_device = 0
+04-26 11:02:42.657  3015  3456 I audio_hw_primary: select_devices++ mode[0]
+04-26 11:02:42.657  3015  3456 I audio_hw_primary: output_device_id is 2, output_route is media-speaker;input_source_id is 0, input_route is null.
+04-26 11:02:42.657  3015  3456 I dsp_common: dsp_common_control_algo:set device = 2
+04-26 11:02:42.657  3015  3456 I dsp_maxim_ctl: get_smartpa_sence:device = 0x2
+04-26 11:02:42.658  3015  3456 I audio_route: route change MIXERR S1R MUX SWITCH value[0] 1
+04-26 11:02:42.700  3015  3456 I audio_route: route change MIXERL S1L MUX SWITCH value[0] 1
+04-26 11:02:42.701  3015  3456 I audio_route: route change M1R MUX value 3
+04-26 11:02:42.701  3015  3456 I audio_route: route change M1L MUX value 3
+04-26 11:02:42.720  3015  3456 I audio_pop: pop change S4 OL SWITCH SWITCH dir 1
+04-26 11:02:42.721  3015  3456 I audio_pop: pop change S4 OR SWITCH SWITCH dir 1
+04-26 11:02:42.721  3015  3456 I audio_pop: pop change SP IL SWITCH SWITCH dir 1
+04-26 11:02:42.722  3015  3456 I audio_pop: pop change SP IR SWITCH SWITCH dir 1
+04-26 11:02:42.722  3015  3456 I dsp_common: dsp_common_control_algo:set device = 2
+04-26 11:02:42.722  3015  3456 I dsp_maxim_ctl: get_smartpa_sence:device = 0x2
+04-26 11:02:42.722  3015  3456 I dsp_maxim_ctl: maxim_param_set cur_sence=0,sence=0
+04-26 11:02:42.728  3015  3456 I dsp_maxim_ctl: smartpa_control success with value:1
+04-26 11:02:42.729  3015  3456 I MAX98925_SPK: MAX98925 SPK POWER ON
+04-26 11:02:42.729  3015  3456 I audio_hw_primary: select_devices--
+04-26 11:02:42.729  3015  3456 I audio_hw_primary: start_output_stream--
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: stopOutput() output 6, stream 1, session 518
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: stopOutput() output 6, stream 1, session 13
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: getNewOutputDevice() selected device 0
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: setOutputDevice() device 0x0000 delayMs 40
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:42.771  3015  3434 I APM::AudioPolicyManager: setOutputDevice() setting same device 0x0000 or null device
+04-26 11:02:42.847 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.847 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1456.336
+04-26 11:02:42.849 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.851 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1460.71
+04-26 11:02:42.853 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.853 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1462.312
+04-26 11:02:42.866 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Sess\":\"\",\"Data\":{\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022},\"Info\":\"\",\"Code\":0}","info":"请求成功","stat":1}
+04-26 11:02:42.867 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1475.768
+04-26 11:02:42.867 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.868 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1477.055
+04-26 11:02:42.869 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Code\":0,\"Sess\":\"\",\"Data\":{\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020},\"Info\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.869 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1478.144
+04-26 11:02:42.870 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.870 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1479.685
+04-26 11:02:42.879 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0,\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.880 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1488.79
+04-26 11:02:42.882 19752 19861 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:42.882 19752 19861 I System.out: eventId: event_38  custom status: 1  info: ok
+04-26 11:02:42.894 19752 19795 I Corona  : event.response:	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	{"data":"{\"Data\":{\"RecommendRegionId\":2,\"RecommendRegionAppId\":1022,\"RecommendRegionTimeZone\":8,\"IsOpen\":1,\"CurrentRegionId\":1,\"CurrentRegionAppId\":1020,\"CurrentRegionTimeZone\":3,\"IsWarnPrivacy\":0},\"Info\":\"\",\"Code\":0,\"Sess\":\"\"}","info":"请求成功","stat":1}
+04-26 11:02:42.895 19752 19795 I Corona  : https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.897 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.898 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.898 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.898 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.899 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.899 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.899 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.900 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.900 19752 19795 I Corona  : endRequest	https://hwsj-eu-test.clktec.com:20888/frontend/distribute	1503.932
+04-26 11:02:42.906 19752 19795 I Corona  : verifyFile > try to read file = gLocalConfig.datahash
+04-26 11:02:42.909 19752 19795 I Corona  : hashStr = 	e98352716fb5d3ebdd7ad2cd5dee9b63e5afae86
+04-26 11:02:42.910 19752 19795 I Corona  : realHash = 	e98352716fb5d3ebdd7ad2cd5dee9b63e5afae86
+04-26 11:02:42.910 19752 19795 I Corona  : gLocalConfig.data==verifyFile true!
+04-26 11:02:42.926 19752 19752 I System.out: appIdActivity: isactivity1021  false
+04-26 11:02:42.927 19752 19752 I System.out: activate url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute/v1/active_event
+04-26 11:02:42.949 19752 19752 I System.out: eventId: event_1
+04-26 11:02:42.949 19752 19752 I System.out: timeStamp: 1556247762
+04-26 11:02:42.949 19752 19795 I Corona  : isDirExist:	log not exist:	cannot obtain information from file `/data/user/0/com.dc.hwsj/app_data/log'
+04-26 11:02:42.949 19752 19752 I System.out: ad_monitor_url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute
+04-26 11:02:42.949 19752 19752 I System.out: custom url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute/v1/custom_event
+04-26 11:02:42.951 19752 19894 I System.out: admonitor data: {"version":"1.8","app_id":"1021","act_id":"ad_trace_new","data":"{\"cp_app_id\":1021,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"ad_uuid\":\"\",\"channel_id\":0,\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247762,\"reserve\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:42.955  3446  3607 E HwCHRWebMonitor: getFileResult throw exceptionjava.io.FileNotFoundException: proc/net/wifi_network_stat: open failed: ENOENT (No such file or directory)
+04-26 11:02:42.959 19752 19895 I System.out: admonitor data: {"version":"1.8","app_id":"1021","act_id":"ad_trace_new","data":"{\"cp_app_id\":1021,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"event_id\":\"event_1\",\"event_name\":\"启动游戏\",\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247762,\"reserve1\":\"\",\"reserve2\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:43.127 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.184 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.186 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.186 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.186 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.187 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.189 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.189 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.189 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.189 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.189 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.191 19752 19894 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:43.192 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.192 19752 19894 I System.out: appid: 1021  activate sendTime: 0 status: 1  info: ok
+04-26 11:02:43.192 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.192 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.192 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.192 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.194 19752 19895 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:43.194 19752 19895 I System.out: eventId: event_1  custom status: 1  info: ok
+04-26 11:02:43.195 19752 19795 I TAG     : test
+04-26 11:02:43.197 19752 19795 I ==> xxx : updateAccessPrivacyInfoStatus: 1
+04-26 11:02:43.201 19752 19795 E linker  : readlink('/proc/self/fd/67') failed: Permission denied [fd=67]
+04-26 11:02:43.201 19752 19795 E linker  : warning: unable to get realpath for the library "/data/app/com.dc.hwsj-1/lib/arm/libsm_decoder.so". Will use given name.
+04-26 11:02:43.222 19752 19886 E elvaLog : AIBOT 初始化成功。。。。。。。。。。。。。。
+04-26 11:02:43.242 19752 19795 I AdsSdk_3006.6: productId:null
+04-26 11:02:43.242 19752 19795 I AdsSdk_3006.6: channelId:null
+04-26 11:02:43.243 19752 19795 I AdsSdk_3006.6: 没有单独接入统计SDK，使用内部统计
+04-26 11:02:43.243 19752 19795 I AdsSdk_3006.6: finish to init analysis SDK：false
+04-26 11:02:43.251 19752 19795 E linker  : readlink('/proc/self/fd/78') failed: Permission denied [fd=78]
+04-26 11:02:43.252 19752 19795 E linker  : warning: unable to get realpath for the library "/data/app/com.dc.hwsj-1/lib/arm/libplugin.openssl.so". Will use given name.
+04-26 11:02:43.310 19752 19886 E elvaLog : AIBOT 返回消息。。。。。。。。。。。。。。1{"msgs":[{"msg":"亲爱的苏丹，我是您的智能客服坎菲扎，欢迎来到\u2014苏丹的游戏。\n您可以直接输入您的问题，也可以选择下列服务类型提交表单给人工客服，或者点击右上角直接联系人工客服。","actions":[{"action":"充值问题","reply":"充值问题"},{"action":"账号问题","reply":"账号问题"},{"action":"游戏状态","reply":"游戏状态"},{"action":"游戏设置","reply":"游戏设置"},{"action":"反馈问题","reply":"反馈问题"},{"action":"建议","reply":"建议"},{"action":"其他问题?联系我们","reply":"其他问题?联系我们"}]}]}
+04-26 11:02:43.567 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:43.597  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-54 "testin04_default"WPA_PSK
+04-26 11:02:44.289 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.290 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.290 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.292 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.292 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.294 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.294 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.295 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.295 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.295 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.295 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.299 19752 19752 I System.out: eventId: event_2
+04-26 11:02:44.299 19752 19752 I System.out: timeStamp: 1556247764
+04-26 11:02:44.299 19752 19752 I System.out: ad_monitor_url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute
+04-26 11:02:44.299 19752 19752 I System.out: custom url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute/v1/custom_event
+04-26 11:02:44.301 19752 19915 I System.out: admonitor data: {"version":"1.8","app_id":"1021","act_id":"ad_trace_new","data":"{\"cp_app_id\":1021,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"event_id\":\"event_2\",\"event_name\":\"热更游戏资源开始\",\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247764,\"reserve1\":\"\",\"reserve2\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:44.303 19752 19795 I Corona  : change update cdn url to: 	https://hwsj-res.clktec.com/updatetest/1.8/patchList.json?20190426133
+04-26 11:02:44.311  3446  3549 I InputDispatcher: touch process [18664], send to pg
+04-26 11:02:44.358  2808  2936 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:44.359  2808  2936 I [Gralloc]: alloc succ handle[0x55ca42f620] stride[736]
+04-26 11:02:44.359  2808  2936 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:44.359  2808  2936 I [Gralloc]: alloc succ handle[0x55ca42f8b0] stride[736]
+04-26 11:02:44.360  2808  2936 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:44.360  2808  2936 I [Gralloc]: alloc succ handle[0x55ca42fba0] stride[736]
+04-26 11:02:44.367 19752 19916 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:44.445 19752 19916 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:44.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.569 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:44.669 19752 19915 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:44.670 19752 19915 I System.out: eventId: event_2  custom status: 1  info: ok
+04-26 11:02:45.258 19752 19904 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.259 19752 19906 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.295 19752 19752 I System.out: eventId: event_39
+04-26 11:02:45.295 19752 19752 I System.out: timeStamp: 1556247765
+04-26 11:02:45.296 19752 19752 I System.out: ad_monitor_url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute
+04-26 11:02:45.296 19752 19752 I System.out: custom url: https://hwsj-eu-test.clktec.com:20888/frontend/distribute/v1/custom_event
+04-26 11:02:45.297 19752 19920 I System.out: admonitor data: {"version":"1.8","app_id":"1021","act_id":"ad_trace_new","data":"{\"cp_app_id\":1021,\"ad_app_key\":\"3199536a745011e8a870025a896bb440\",\"retail_id\":2,\"event_id\":\"event_39\",\"event_name\":\"拉取热更配置成功\",\"mac\":\"820d890f84e4172e0423134eb1ec1266\",\"user_agent\":\"Dalvik\\\/2.1.0 (Linux; U; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L)\",\"ex_user_agent\":\"Mozilla\\\/5.0 (Linux; Android 6.0; HUAWEI P8max Build\\\/HUAWEIDAV-703L; wv) AppleWebKit\\\/537.36 (KHTML, like Gecko) Version\\\/4.0 Chrome\\\/45.0.2454.95 Mobile Safari\\\/537.36\",\"device_id\":\"73f5f4f061da9362\",\"os\":\"0\",\"timestamp\":1556247765,\"reserve1\":\"\",\"reserve2\":\"{\\\"deviceType\\\":\\\"android_id\\\"}\"}"}
+04-26 11:02:45.299 19752 19795 I Corona  : savePatchList	{"showVersion":"1.8.01","subversion":1,"version":1.8,"localUpdateVersion":1.801}
+04-26 11:02:45.303 19752 19795 I Corona  : createHashFile = 	36b2b463e9297175637d23cf2afcaa00e22b9cc2
+04-26 11:02:45.305 19752 19795 I Corona  : verifyFile > try to read file = patcher/lastPCfghash
+04-26 11:02:45.307 19752 19795 I Corona  : hashStr = 	36b2b463e9297175637d23cf2afcaa00e22b9cc2
+04-26 11:02:45.307 19752 19795 I Corona  : realHash = 	36b2b463e9297175637d23cf2afcaa00e22b9cc2
+04-26 11:02:45.307 19752 19795 I Corona  : patcher/lastPCfg==verifyFile true!
+04-26 11:02:45.318 19752 19924 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.323 19752 19925 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.326 19752 19926 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.330 19752 19927 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.334 19752 19928 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.338 19752 19929 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.342 19752 19930 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.346 19752 19931 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.350 19752 19932 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.380 19752 19924 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.386 19752 19925 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.386 19752 19928 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.386 19752 19926 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.386 19752 19927 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.395 19752 19929 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.396 19752 19930 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.396 19752 19931 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.401 19752 19932 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.488 19752 19906 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.489 19752 19904 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:45.538 19752 19762 I art     : Starting a blocking GC Explicit
+04-26 11:02:45.538 19752 19920 I System.out: dopost resutl: {"data":"{\"info\":\"ok\",\"status\":1}","info":"请求成功","stat":1}
+04-26 11:02:45.540 19752 19920 I System.out: eventId: event_39  custom status: 1  info: ok
+04-26 11:02:45.567 19752 19762 I art     : Explicit concurrent mark sweep GC freed 27800(1641KB) AllocSpace objects, 8(152KB) LOS objects, 21% free, 14MB/18MB, paused 1.368ms total 29.072ms
+04-26 11:02:45.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:45.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:45.568 18664 18664 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:45.585 19752 19762 I art     : Starting a blocking GC Explicit
+04-26 11:02:45.609 19752 19762 I art     : Explicit concurrent mark sweep GC freed 1242(88KB) AllocSpace objects, 0(0B) LOS objects, 21% free, 14MB/18MB, paused 1.527ms total 23.907ms
+04-26 11:02:45.626 19752 19762 I art     : Starting a blocking GC Explicit
+04-26 11:02:45.650 19752 19762 I art     : Explicit concurrent mark sweep GC freed 265(12KB) AllocSpace objects, 0(0B) LOS objects, 21% free, 14MB/18MB, paused 1.444ms total 23.306ms
+04-26 11:02:45.666 19752 19762 I art     : Starting a blocking GC Explicit
+04-26 11:02:45.690 19752 19762 I art     : Explicit concurrent mark sweep GC freed 353(22KB) AllocSpace objects, 0(0B) LOS objects, 21% free, 14MB/18MB, paused 1.632ms total 23.799ms
+04-26 11:02:45.707 19752 19762 I art     : Starting a blocking GC Explicit
+04-26 11:02:45.731 19752 19762 I art     : Explicit concurrent mark sweep GC freed 1304(55KB) AllocSpace objects, 0(0B) LOS objects, 21% free, 14MB/18MB, paused 1.369ms total 23.742ms
+04-26 11:02:45.742  3015  3456 I audio_hw_primary: do_out_standby standby: 0, out_device: 2
+04-26 11:02:45.760  3015  3456 I audio_hw_primary: select_devices++ mode[0]
+04-26 11:02:45.760  3015  3456 I audio_hw_primary: output_device_id is 0, output_route is null;input_source_id is 0, input_route is null.
+04-26 11:02:45.761  3015  3456 I MAX98925_SPK: MAX98925 SPK POWER OFF
+04-26 11:02:45.761  3015  3456 I dsp_common: dsp_common_control_algo:set device = 0
+04-26 11:02:45.765  3015  3456 I dsp_maxim_ctl: smartpa_control success with value:0
+04-26 11:02:45.766  3015  3456 I audio_pop: pop change S4 OL SWITCH SWITCH dir 0
+04-26 11:02:45.766  3015  3456 I audio_pop: pop change S4 OR SWITCH SWITCH dir 0
+04-26 11:02:45.781  3015  3456 I audio_pop: pop change SP IL SWITCH SWITCH dir 0
+04-26 11:02:45.781  3015  3456 I audio_pop: pop change SP IR SWITCH SWITCH dir 0
+04-26 11:02:45.781  3015  3456 I audio_route: route change MIXERR S1R MUX SWITCH value[0] 0
+04-26 11:02:45.781  3015  3456 I audio_route: route change MIXERL S1L MUX SWITCH value[0] 0
+04-26 11:02:45.782  3015  3456 I audio_route: route change M1R MUX value 0
+04-26 11:02:45.782  3015  3456 I audio_route: route change M1L MUX value 0
+04-26 11:02:45.782  3015  3456 I dsp_common: dsp_common_control_algo:set device = 0
+04-26 11:02:45.782  3015  3456 I audio_hw_primary: select_devices--
+04-26 11:02:45.837  4413  4997 W PGApi_client: recv actoionId = 10011, action = com.huawei.pgmng.PGAction@a86f4c1 actionId =10011 pkg =com.dc.hwsj extend1 =7 extend2 =100 flag =3 type =1
+04-26 11:02:45.837  4413  4997 W PGMiddleWare: in handleAction method, action = 10011
+04-26 11:02:45.837  4413  4997 W PGMiddleWare: in handleAction, invoke client = com.huawei.pgmng.middleware.AudioEffectLowPowerImpl@9f26c77, action = com.huawei.pgmng.PGAction@a86f4c1 actionId =10011 pkg =com.dc.hwsj extend1 =7 extend2 =100 flag =3 type =1
+04-26 11:02:45.837  3015  3785 I APM::AudioPolicyManager: startOutput() output 6, stream 1, session 518
+04-26 11:02:45.837  3015  3785 I APM::AudioPolicyManager: getNewOutputDevice() selected device 2
+04-26 11:02:45.837  3015  3785 I APM::AudioPolicyManager: setOutputDevice() device 0x0002 delayMs 0
+04-26 11:02:45.837  3015  3785 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:45.837  3015  3785 I APM::AudioPolicyManager: setOutputDevice() changing to device 0x0002 , muteWaitMs 0
+04-26 11:02:45.839  3015  3456 I audio_hw_primary: check_device_change return 1
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 5 device 0x2
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 4 device 0x2
+04-26 11:02:45.843  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 1 device 0x2
+04-26 11:02:45.844  3015  3785 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:45.845  4413  4997 W AudioEffectLowPowerImpl: mAudioManager.setParameters = SmartPA_lowpower=on
+04-26 11:02:45.846  3015  3461 I audio_custom: audio custom set parameters kvpairs: SmartPA_lowpower=on
+04-26 11:02:45.846  3015  3461 I dsp_soc : audio soc_set_parameters set parameters kvpairs: SmartPA_lowpower=on
+04-26 11:02:45.850  3015  3456 I audio_hw_primary: start_output_stream++: out_type = 0, out_device = 0
+04-26 11:02:45.850  3015  3456 I audio_hw_primary: select_devices++ mode[0]
+04-26 11:02:45.850  3015  3456 I audio_hw_primary: output_device_id is 2, output_route is media-speaker;input_source_id is 0, input_route is null.
+04-26 11:02:45.850  3015  3456 I dsp_common: dsp_common_control_algo:set device = 2
+04-26 11:02:45.851  3015  3456 I audio_route: route change MIXERR S1R MUX SWITCH value[0] 1
+04-26 11:02:45.856  3015  3456 I audio_route: route change MIXERL S1L MUX SWITCH value[0] 1
+04-26 11:02:45.856  3015  3456 I audio_route: route change M1R MUX value 3
+04-26 11:02:45.856  3015  3456 I audio_route: route change M1L MUX value 3
+04-26 11:02:45.866  4413  4413 I powergenie_jni: guess platform type = 3
+04-26 11:02:45.866  4413  4413 I powergenie_jni: guess platform type = 3
+04-26 11:02:45.870  3015  3456 I audio_pop: pop change S4 OL SWITCH SWITCH dir 1
+04-26 11:02:45.871  3015  3456 I audio_pop: pop change S4 OR SWITCH SWITCH dir 1
+04-26 11:02:45.871  3015  3456 I audio_pop: pop change SP IL SWITCH SWITCH dir 1
+04-26 11:02:45.871  3015  3456 I audio_pop: pop change SP IR SWITCH SWITCH dir 1
+04-26 11:02:45.871  3015  3456 I dsp_common: dsp_common_control_algo:set device = 2
+04-26 11:02:45.871  3015  3456 I dsp_maxim_ctl: maxim_param_set cur_sence=0,sence=7
+04-26 11:02:45.873  3015  3456 I dsp_maxim_ctl: maxim_param_set success
+04-26 11:02:45.875 18664 19935 I HwSystemManager: CommonCountDownDialog:is super app perm:false
+04-26 11:02:45.880  3015  3456 I dsp_maxim_ctl: smartpa_control success with value:1
+04-26 11:02:45.880  3015  3456 I MAX98925_SPK: MAX98925 SPK POWER ON
+04-26 11:02:45.880  3015  3456 I audio_hw_primary: select_devices--
+04-26 11:02:45.880  3015  3456 I audio_hw_primary: start_output_stream--
+04-26 11:02:45.900 18664 19935 W HwSystemManager: HwAppPermissions:setHsmPermValue for com.dc.hwsj has no group corresponding to type 33554432, reason:dialog selection
+04-26 11:02:45.901 18664 19935 I SendBroadcastPermission: action:com.huawei.permission.wtitedb, mPermissionType:0
+04-26 11:02:45.905  4413  4950 I ash     : view remove pid:18664 uid:1000
+04-26 11:02:45.922  3015  3434 I APM::AudioPolicyManager: stopOutput() output 6, stream 1, session 518
+04-26 11:02:45.923  3015  3434 I APM::AudioPolicyManager: getNewOutputDevice() selected device 0
+04-26 11:02:45.923  3015  3434 I APM::AudioPolicyManager: setOutputDevice() device 0x0000 delayMs 40
+04-26 11:02:45.923  3015  3434 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:45.923  3015  3434 I APM::AudioPolicyManager: setOutputDevice() setting same device 0x0000 or null device
+04-26 11:02:45.935 18664 18664 I HwSystemManager: ComBroadcastReceiver:ComBroadcastReceiver action = com.huawei.permission.wtitedb
+04-26 11:02:45.937 18664 18664 I HwSystemManager: HoldDialogShowService:onDismiss
+04-26 11:02:45.939 19752 19769 W FirebaseInstanceId: Failed to resolve IID implementation package, falling back
+04-26 11:02:45.994  2808 10235 I [Gralloc]: alloc w[1080] h[1920] format[1] usage[2816]
+04-26 11:02:45.997  2808 10235 I [Gralloc]: alloc succ handle[0x55ca5612b0] stride[1120]
+04-26 11:02:46.003 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.007 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.007 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.007 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.010 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.010 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.011 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.012 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.012 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.012 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.012 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.012 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:46.019  2808  8582 I [Gralloc]: alloc w[1080] h[1920] format[1] usage[2816]
+04-26 11:02:46.022  2808  8582 I [Gralloc]: alloc succ handle[0x55ca5689b0] stride[1120]
+04-26 11:02:46.025  4413  4950 W AppsCleanUp: frequently crash process:cn.testin.itestin time:3046534ms, crash:30 uid:15682
+04-26 11:02:46.034  2808  8582 I [Gralloc]: alloc w[1080] h[1920] format[1] usage[2816]
+04-26 11:02:46.039  2808  8582 I [Gralloc]: alloc succ handle[0x55ca68aea0] stride[1120]
+04-26 11:02:46.055  2840  2840 I HisiKeyMaster: hisi_km_generate_key start
+04-26 11:02:46.055  2840  2840 I HisiKeyMaster: it is a RSA keypair, public_exponent is 65537, key_size is 2048
+04-26 11:02:46.100  2808  2934 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:46.101  2808  2934 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[32]
+04-26 11:02:46.102 19942 19954 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:46.103 19942 19954 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:46.105 19942 19954 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:46.105 19942 19954 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:46.106 19942 19954 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:46.134  2808  2936 I [Gralloc]: alloc w[1080] h[1920] format[1] usage[2816]
+04-26 11:02:46.138  2808  2936 I [Gralloc]: alloc succ handle[0x55ca6787e0] stride[1120]
+04-26 11:02:46.162 19942 19942 I MultiDex: VM with version 2.1.0 has multidex support
+04-26 11:02:46.165 19942 19942 I MultiDex: Installing application
+04-26 11:02:46.165 19942 19942 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+04-26 11:02:46.179 19942 19942 I KEY-PinyinIME-180817-b: onCreate.
+04-26 11:02:46.189 19942 19942 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+04-26 11:02:46.248  4413  4950 W AppsCleanUp: frequently crash process:cn.testin.itestin:im time:3092425ms, crash:31 uid:15682
+04-26 11:02:46.258 19942 19942 I KEY-PinyinIME-180817-b: onStartInput  ccontentType: 0 Restarting:false
+04-26 11:02:46.308 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyDown.keyCode=[24],event=[KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3132265, downTime=3132265, deviceId=-1, source=0x101 }]
+04-26 11:02:46.314  2808  3547 I [Gralloc]: alloc w[16] h[16] format[1] usage[256]
+04-26 11:02:46.314  2808  3547 I [Gralloc]: alloc succ handle[0x55ca66fa10] stride[32]
+04-26 11:02:46.315 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyUp.keyCode=[24],event=[KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3132418, downTime=3132418, deviceId=-1, source=0x101 }]
+04-26 11:02:46.331 19961 19973 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:46.331 19961 19973 E linker  : warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi3635.so". Will use given name.
+04-26 11:02:46.332 19961 19973 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+04-26 11:02:46.332 19961 19973 E linker  : warning: unable to get realpath for the library "libion.so". Will use given name.
+04-26 11:02:46.332 19961 19973 E HAL     : load: id=gralloc != hmi->id=gralloc
+04-26 11:02:46.356 19961 19961 I MultiDex: VM with version 2.1.0 has multidex support
+04-26 11:02:46.357 19961 19961 I MultiDex: Installing application
+04-26 11:02:46.357 19961 19961 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+04-26 11:02:46.375 19961 19961 I foo     : Dict: start=2559568, length=1068442, fd={ParcelFileDescriptor: FileDescriptor[23]}
+04-26 11:02:46.424  2808 10235 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:46.424  2808 10235 I [Gralloc]: alloc succ handle[0x55ca713080] stride[736]
+04-26 11:02:46.425  2808 10235 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:46.425  2808 10235 I [Gralloc]: alloc succ handle[0x55ca679040] stride[736]
+04-26 11:02:46.425  2808 10235 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:46.425  2808 10235 I [Gralloc]: alloc succ handle[0x55ca5fdf80] stride[736]
+04-26 11:02:46.602  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-52 "testin04_default"WPA_PSK
+04-26 11:02:46.618  2864  2864 E TEMP_MONITOR: battery_temp : 31 tmax = 55
+04-26 11:02:46.884  2856  2856 E Thermal-daemon: [ap] temp_new :39  temp_old :37
+04-26 11:02:46.884  2856  2856 E Thermal-daemon: Report temperature: [ap] temp :39  report_threshold:1
+04-26 11:02:46.997  2840  2840 I HisiKeyMaster: keymaster_error_t hisi_km_generate_key_ext(const keymaster1_device_t*, const keymaster_key_param_set_t*, keymaster_key_blob_t*, keymaster_key_characteristics_t**) success
+04-26 11:02:47.001  2840  2840 I HisiKeyMaster: hisi_km_get_key_characteristics start
+04-26 11:02:47.009  2840  2840 I HisiKeyMaster: hisi_km_get_key_characteristics success
+04-26 11:02:47.009  2840  2840 I HisiKeyMaster: hisi_km_export_key start
+04-26 11:02:47.016  2840  2840 I HisiKeyMaster: hisi_km_export_key success
+04-26 11:02:47.073 19752 19841 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:47.080 19752 19841 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:47.137 19752 19841 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:47.329 19752 19841 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:47.590  3446  3559 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+04-26 11:02:47.604 18592 18678 E HwSystemManager: NatTrafficNotifyService:imsi is null, so return
+04-26 11:02:47.789 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.789 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.791 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.791 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.791 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.791 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.791 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.792 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.792 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.792 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.792 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.792 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.826 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.826 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.827 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:47.962  3446  3607 E HwCHRWebMonitor: getFileResult throw exceptionjava.io.FileNotFoundException: proc/net/wifi_network_stat: open failed: ENOENT (No such file or directory)
+04-26 11:02:47.986 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyDown.keyCode=[24],event=[KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3133944, downTime=3133944, deviceId=-1, source=0x101 }]
+04-26 11:02:47.992 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyUp.keyCode=[24],event=[KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3134096, downTime=3134096, deviceId=-1, source=0x101 }]
+04-26 11:02:48.052  2808  3547 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:48.053  2808  3547 I [Gralloc]: alloc succ handle[0x55ca5a9980] stride[736]
+04-26 11:02:48.053  2808  3547 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:48.054  2808  3547 I [Gralloc]: alloc succ handle[0x55ca679040] stride[736]
+04-26 11:02:48.054  2808  3547 I [Gralloc]: alloc w[717] h[191] format[1] usage[2816]
+04-26 11:02:48.054  2808  3547 I [Gralloc]: alloc succ handle[0x55ca5fdf80] stride[736]
+04-26 11:02:48.447 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyDown.keyCode=[25],event=[KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3134400, downTime=3134400, deviceId=-1, source=0x101 }]
+04-26 11:02:48.460 19942 19942 I KEY-PinyinIME-180817-b: --->onKeyUp.keyCode=[25],event=[KeyEvent { action=ACTION_UP, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, hwFlags=0x75615028, repeatCount=0, eventTime=3134554, downTime=3134554, deviceId=-1, source=0x101 }]
+04-26 11:02:48.615 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:48.615 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:48.619 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:48.624 19752 19841 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:48.833  3015  3461 I APM::AudioPolicyManager: startOutput() output 6, stream 2, session 520
+04-26 11:02:48.833  3015  3461 I APM::AudioPolicyManager: getNewOutputDevice() selected device 2
+04-26 11:02:48.834  3015  3461 I APM::AudioPolicyManager: setOutputDevice() device 0x0002 delayMs 0
+04-26 11:02:48.834  3015  3461 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:48.835  3015  3461 I APM::AudioPolicyManager: setOutputDevice() changing to device 0x0002 , muteWaitMs 0
+04-26 11:02:48.843  3015  3456 I audio_hw_primary: select_devices++ mode[0]
+04-26 11:02:48.843  3015  3456 I audio_hw_primary: select_devices--
+04-26 11:02:48.843  3015  3456 I audio_hw_primary: check_device_change return 1
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 5 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 4 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 7 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 3 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 1 device 0x2
+04-26 11:02:48.844  3015  3461 I APM::AudioPolicyManager: checkAndSetVolume: index 0 device 0x2
+04-26 11:02:48.943  3015  3434 I APM::AudioPolicyManager: stopOutput() output 6, stream 2, session 520
+04-26 11:02:48.944  3015  3434 I APM::AudioPolicyManager: getNewOutputDevice() selected device 0
+04-26 11:02:48.944  3015  3434 I APM::AudioPolicyManager: setOutputDevice() device 0x0000 delayMs 40
+04-26 11:02:48.944  3015  3434 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+04-26 11:02:48.944  3015  3434 I APM::AudioPolicyManager: setOutputDevice() setting same device 0x0000 or null device
+04-26 11:02:49.385 19752 19906 I AdsSdk_3006.6: productId:1000254
+04-26 11:02:49.385 19752 19906 I AdsSdk_3006.6: channelId:32400
+04-26 11:02:49.386 19752 19906 I AdsSdk_3006.6: 没有单独接入统计SDK，使用内部统计
+04-26 11:02:49.393 19752 19906 I AdsSdk_3006.6: finish to init analysis SDK：true
+04-26 11:02:49.409 19752 19990 I <ALY Android>_3201: xxx ==> dataDir: /sdcard/Android/data/com.dc.hwsj/files
+04-26 11:02:49.412 19752 19990 I <ALY Android>_3201: xxx ==> dataDir exist: false
+04-26 11:02:49.477 19752 19992 I ====> xxx: getGaid, AdvertisingIdClient e:com.google.android.gms.common.GooglePlayServicesNotAvailableException
+04-26 11:02:49.477 19752 19992 W System.err: com.google.android.gms.common.GooglePlayServicesNotAvailableException
+04-26 11:02:49.477 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzc(Unknown Source)
+04-26 11:02:49.477 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.start(Unknown Source)
+04-26 11:02:49.477 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(Unknown Source)
+04-26 11:02:49.477 19752 19992 W System.err: 	at com.up.ads.analysis.g.c.a(Unknown Source)
+04-26 11:02:49.477 19752 19992 W System.err: 	at com.up.ads.analysis.g.e.m(Unknown Source)
+04-26 11:02:49.478 19752 19992 W System.err: 	at com.up.ads.analysis.a.b.a.b(Unknown Source)
+04-26 11:02:49.478 19752 19992 W System.err: 	at com.up.ads.analysis.a.b$a.run(Unknown Source)
+04-26 11:02:49.478 19752 19992 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+04-26 11:02:49.478 19752 19992 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+04-26 11:02:49.478 19752 19992 W System.err: 	at java.lang.Thread.run(Thread.java:833)
+04-26 11:02:49.481 19752 19992 I <ALY Android>_3201: ====> xxx, gaid wait
+04-26 11:02:49.486 19752 19993 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:49.524 19752 19770 I SendBroadcastPermission: action:com.google.android.gms.measurement.UPLOAD, mPermissionType:0
+04-26 11:02:49.567 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:49.567 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:49.569 19752 19795 E Minikin : getFamilyForChar iscover: 0
+04-26 11:02:49.594 19752 19995 E UnityAds: com.unity3d.ads.misc.Utilities.readFile() (line:177) :: File did not exist or couldn't be read
+04-26 11:02:49.596 19752 19995 E UnityAds: com.unity3d.ads.misc.Utilities.readFile() (line:177) :: File did not exist or couldn't be read
+04-26 11:02:49.599 19752 19995 I UnityAds: com.unity3d.ads.UnityAds.initialize() (line:149) :: Initializing Unity Ads 2.2.1 (2201) with game id 2752400 in production mode
+04-26 11:02:49.607  3446  3563 E WifiConfigStore: updateConfiguration freq=2412 BSSID=1c:b9:c4:2c:27:38 RSSI=-53 "testin04_default"WPA_PSK
+04-26 11:02:49.614 19752 19995 I UnityAds: com.unity3d.ads.UnityAds.initialize() (line:161) :: Unity Ads environment check OK
+04-26 11:02:49.634 19752 19752 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.643 19752 19752 W DynamiteModule: Failed to retrieve remote module version.
+04-26 11:02:49.645 19752 19752 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.711 19752 20006 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.755 19752 19752 I Ads     : Starting ad request.
+04-26 11:02:49.756 19752 19752 I Ads     : Use AdRequest.Builder.addTestDevice("09001A7D1C1EE4155F20DA5837A8B6C1") to get test ads on this device.
+04-26 11:02:49.763 19752 19997 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:49.782 19752 19992 I ====> xxx: getGaid, AdvertisingIdClient e:com.google.android.gms.common.GooglePlayServicesNotAvailableException
+04-26 11:02:49.782 19752 19992 W System.err: com.google.android.gms.common.GooglePlayServicesNotAvailableException
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzc(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.start(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.up.ads.analysis.g.c.a(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.up.ads.analysis.g.e.m(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.up.ads.analysis.a.b.a.b(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at com.up.ads.analysis.a.b$a.run(Unknown Source)
+04-26 11:02:49.783 19752 19992 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+04-26 11:02:49.783 19752 19992 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+04-26 11:02:49.783 19752 19992 W System.err: 	at java.lang.Thread.run(Thread.java:833)
+04-26 11:02:49.785 19752 20028 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.785 19752 20028 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.787 20023 20023 I dex2oat : /system/bin/dex2oat --dex-file=/data/user/0/com.dc.hwsj/cache/1505450608132.jar --oat-file=/data/user/0/com.dc.hwsj/cache/1505450608132.dex
+04-26 11:02:49.788 19752 20029 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.790 19752 20029 W GooglePlayServicesUtil: Google Play Store is missing.
+04-26 11:02:49.821 19752 19999 I UnityAds: com.unity3d.ads.configuration.InitializeThread$InitializeStateConfig.execute() (line:235) :: Unity Ads init: load configuration from https://config.unityads.unity3d.com/webview/2.2.1/release/config.json
+04-26 11:02:49.827 19752 19999 I System  : core_booster, getBoosterConfig = false
+04-26 11:02:49.852 20023 20023 I dex2oat : dex2oat took 66.211ms (threads: 4) 
+04-26 11:02:49.855 19752 19993 I System  : core_booster, getBoosterConfig = false
