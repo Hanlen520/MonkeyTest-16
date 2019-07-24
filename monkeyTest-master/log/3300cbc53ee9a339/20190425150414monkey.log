@@ -1,0 +1,164 @@
+:Monkey: seed=883 count=100
+:AllowPackage: com.dc.hwsj
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.dc.hwsj.LuaActivity (from package com.dc.hwsj)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 883
+// Event percentages:
+//   0: 80.0%
+//   1: 5.0%
+//   2: 0.0%
+//   3: 5.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 0.0%
+//   7: 0.0%
+//   8: 5.0%
+//   9: 5.0%
+//   10: 0.0%
+//   11: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.dc.hwsj/.LuaActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.dc.hwsj/.LuaActivity } in package com.dc.hwsj
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.dc.hwsj/.LuaActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.dc.hwsj/.LuaActivity } in package com.dc.hwsj
+Sleeping for 300 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.dc.hwsj/.LuaActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.dc.hwsj/.LuaActivity } in package com.dc.hwsj
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,148.0)
+:Sending Touch (ACTION_UP): 0:(161.38956,156.43481)
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(521.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(515.841,1081.7263)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(717.0,209.0)
+:Sending Touch (ACTION_UP): 0:(706.4943,196.01395)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(456.0,205.0)
+:Sending Touch (ACTION_UP): 0:(461.1958,205.38116)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(83.0,787.0)
+:Sending Touch (ACTION_UP): 0:(101.58727,776.3707)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.sec.android.app.launcher/.activities.LauncherActivity } in package com.sec.android.app.launcher
+:Sending Touch (ACTION_DOWN): 0:(41.0,834.0)
+:Sending Touch (ACTION_UP): 0:(34.825733,828.9482)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(291.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(298.66464,1060.9929)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(528.0,7.0)
+:Sending Touch (ACTION_UP): 0:(510.77576,23.604954)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(94.0,217.0)
+:Sending Touch (ACTION_UP): 0:(97.76713,216.05276)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(295.0,214.0)
+:Sending Touch (ACTION_UP): 0:(310.22507,213.79295)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(152.0,579.0)
+:Sending Touch (ACTION_UP): 0:(153.49478,572.14087)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(241.0,903.0)
+:Sending Touch (ACTION_UP): 0:(243.13495,903.3639)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(377.0,1231.0)
+:Sending Touch (ACTION_UP): 0:(362.29495,1230.3215)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(654.0,127.0)
+:Sending Touch (ACTION_UP): 0:(660.08765,125.14995)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(392.0,1244.0)
+:Sending Touch (ACTION_UP): 0:(392.42776,1247.5139)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(194.0,1145.0)
+:Sending Touch (ACTION_UP): 0:(200.28519,1139.4321)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(21.0,1200.0)
+:Sending Touch (ACTION_UP): 0:(28.922117,1203.9719)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(283.0,241.0)
+:Sending Touch (ACTION_UP): 0:(282.88992,237.9312)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(247.0,1237.0)
+:Sending Touch (ACTION_MOVE): 0:(263.01443,1243.9406)
+:Sending Touch (ACTION_MOVE): 0:(278.223,1249.495)
+:Sending Touch (ACTION_MOVE): 0:(285.3548,1251.0598)
+:Sending Touch (ACTION_MOVE): 0:(288.7895,1259.8646)
+:Sending Touch (ACTION_MOVE): 0:(292.66705,1267.0205)
+:Sending Touch (ACTION_MOVE): 0:(308.0818,1268.3453)
+:Sending Touch (ACTION_MOVE): 0:(315.20218,1276.9437)
+:Sending Touch (ACTION_MOVE): 0:(319.84402,1280.0)
+:Sending Touch (ACTION_UP): 0:(323.43375,1280.0)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(265.0,397.0)
+:Sending Touch (ACTION_MOVE): 0:(250.51758,392.47058)
+:Sending Touch (ACTION_UP): 0:(238.10992,388.38745)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,572.0)
+:Sending Touch (ACTION_MOVE): 0:(671.8243,571.7009)
+:Sending Touch (ACTION_MOVE): 0:(669.1514,570.7374)
+:Sending Touch (ACTION_MOVE): 0:(660.6607,570.67914)
+:Sending Touch (ACTION_MOVE): 0:(654.27216,570.4368)
+:Sending Touch (ACTION_UP): 0:(640.58405,569.11084)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(37.0,192.0)
+:Sending Touch (ACTION_UP): 0:(33.42552,191.79964)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(473.0,866.0)
+:Sending Touch (ACTION_UP): 0:(469.3711,863.4218)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,355.0)
+:Sending Touch (ACTION_UP): 0:(634.7238,357.03064)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(328.0,308.0)
+:Sending Touch (ACTION_UP): 0:(320.36343,304.47403)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(13.0,1225.0)
+:Sending Touch (ACTION_UP): 0:(2.2219334,1225.296)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(218.0,1095.0)
+:Sending Touch (ACTION_UP): 0:(217.46045,1090.5968)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(284.0,1165.0)
+:Sending Touch (ACTION_MOVE): 0:(282.20065,1164.1025)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=10913ms (0ms mobile, 0ms wifi, 10913ms not connected)
+// Monkey finished

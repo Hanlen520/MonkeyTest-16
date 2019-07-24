@@ -1,0 +1,7 @@
+:Monkey: seed=211 count=10000
+:AllowPackage: com.quvideo.slideplus
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+// Selecting main activities from category android.intent.category.MONKEY
+** No activities found to run, monkey aborted.
